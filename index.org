@@ -1,4 +1,4 @@
-#+TITLE: Síntese dos Assuntos da Apresentação sobre IA (GEPIS)
+#+TITLE: Síntese (Roteiro) dos Assuntos da Apresentação sobre IA (GEPIS)
 #+AUTHOR: GEPIS com ajuda do Gemini 3.5 flash e pro
 #+EMAIL: contato@gepis.org
 #+LANGUAGE: pt-br
@@ -20,13 +20,14 @@ Os tópicos abordados exposição abordados aqui são:
 + Engenharia de Prompts
 + Agentes
 + Ferramentas de IA para o dia a dia
-+ IA para Ciência
++ IA para Ciência - Pesquisas em Periódicos
+  
   Ferramentas de pesquisa em perídicos que que não só localizam
   artigos por palavras chaves em cada cada um deles, mas estas apresentadas aqui leem os textos para obter informações que agregam valor aos resultados da pesquisa.
 
 
 
-* IA para ciência
+* IA para ciência - Pesquisas em Periódicos
 ** Para Ciência em Geral
 
 | Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
@@ -35,6 +36,27 @@ Os tópicos abordados exposição abordados aqui são:
 | Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
 | PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
 | scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
+
+*** Scopus da Elsevier
+
+A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier 
+
++ Link de acesso:
+
+  https://www.scopus.com/
+
++ Demonstração de pesquisa
+  
+  [[./imgs/scopus-demo.png][Clicar aqui para abrir a demo]]
+  
++ Mais informações sobre a ferramenta
+  
+  [[https://service.elsevier.com/app/answers/detail/a_id/14799/supporthub/scopus/#doc][Tutoriais oficiais do scopus]]
+
++ Como funciona a Ia nesta ferramenta?
+  
+  A sintaxe de pesquisa é construída por meio de linguagem natural  
+
 
 *** Elicit
 Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
