@@ -1,0 +1,135 @@
+#+TITLE: Pesquisa Visual com Open Knowledge Maps (OK Maps)
+#+AUTHOR: GEPIS com ajuda do Gemini 3.5 flash e pro
+#+EMAIL: contato@gepis.org
+#+LANGUAGE: pt-br
+#+OPTIONS: toc:2
+
+
+* Introdução
+
+Estas ferramentas citadas abaixo não só localizam artigos por
+localização de palavras chaves em cada cada um deles, mas estas
+apresentadas aqui leem os textos para obter informações que agregam
+valor aos resultados da pesquisa.
+
+* Tópicos
++ Engenharia de Prompts
++ Ferramentas de IA para o dia a dia
++ IA para Ciência
+
+
+
+* IA para ciência
+** Para Ciência em Geral
+
+| Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
+|------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Elicit     | Extração de dados estruturados     | Permite carregar milhares de PDFs ou consultar sua base para criar tabelas comparativas automatizadas (ex: extraindo amostras ou doses).             |
+| Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
+| PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
+| scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
+
+*** Elicit
+Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial [[./imgs/elicit-trial-offer.png]]
+
+Veja um exemplo de resultado retornado para "Which theoretical points
+about inclusive education are most contested?" ou seja, "quais os
+pontos teóricos sobre educação inclusiva são mais contestados?"
+
+Veja [[https://elicit.com/agent/a50a8298-c5fb-4597-9c9f-5364885c562e][aqui]] o resultado 
+
+O legal é que vc pode fazer perguntas de pesquisa e obter responstas
+fundamentadas na teoria. (Só em inglês)
+
+*** Consensus (https://consensus.app)
+
+- Exemplos
+
+  Acesse um exemplo de pesquisa [[https://consensus.app/search/quais-tipos-de-inclusao-escolar-sao-mais-efetivas/vPQERQjpQTqhH6LLK4UOrA/?utm_source=share&utm_medium=clipboard][aqui]]
+
+- Links uteis
+  https://www.youtube.com/@ConsensusNLP  
+  
+*** scienceos (https://www.scienceos.ai)
+- Exemplo
+
+   Não conseguimoscriar um link de compartilhamento
+
+   [[./imgs/scienceos-exemplo.png]]
+
+   [[./imgs/scienceos-exemplo-diagrama.png]]
+
+
+
+*** semanticscholar (https://www.semanticscholar.org)
+[[./imgs/semanticscholar-criandoconta-unesp.png]]
+
+[[./imgs/semanticscholar-criandoconta-unesp2.png]]
+
+[[./imgs/semanticscholar-criandoconta-unesp3.png]]
+
+[[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
+
+Exemplo de resultados de pesquisa:
+
+[[./imgs/semanticscholar-resultados.png]]
+
+*** inciteful (https://incitefulmed.com/academic)
+
+Estas tres imagens abaixo ilustra o resultado da pesquisa sobre um
+artigo da professora Anna Augusta sem precisar ir no site da
+inciteful. Mas vale a visita ao site. Digite o nome da professora ou
+um outro nome para visualizar os resultados.
+
+O interessante do inciteful é que não solicitou cartao e traz à tona
+todo o contexto dos artigos mais relacionados ao tema de um artigo
+específico.
+
+Para artigos muito populares, seminais, ou basilar para uma tema de
+pesquisa, utilizar esta ferramenta para visualizar o entorno teórico
+relativo ao artigo.
+
+[[./imgs/inciteful-resultado1.png]]
+
+[[./imgs/inciteful-resultado2.png]]
+
+[[./imgs/inciteful-resultado3.png]]
+
+
+** Focadas Na Ciencia Aberta
+
+*** [[https://openalex.org/][openalex]]
+Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
+
+[[./imgs/openalex-resultados1.png]]
+
+
+[[https://openknowledgemaps.org/][*** Open Knowledge Maps (OK Maps)]]
+Open Knowledge Maps nos ajuda a escapar da armadilha da
+"lista infinita" dos mecanismos de busca tradicionais pois agrupa
+artigos por similaridade de texto (títulos, resumos e metadados).
+Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
+
+*** Fluxo de Trabalho para Revisões de Literatura
+- [[file:okmaps-configuracao.org][Passo 1: Definindo Fonte e Parâmetros]]
+- [[file:okmaps-layout.org][Passo 2: Decodificando o Macro Layout]]
+
+*** Estratégias de Compreensão do Mapa de Conhecimento
+
+Uma vez gerado o mapa, existem formas estratégicas de analisá-lo para extrair o máximo de valor:
+
+- [[file:okmaps-estrategias.org#pontes-interdisciplinares][Identificar Pontes Interdisciplinares]]
+- [[file:okmaps-estrategias.org#isolar-outliers][Isolar os "Outliers"]]
+- [[file:okmaps-estrategias.org#acesso-aberto][Filtrar por Representação de Acesso Aberto (Open Access)]]
+
+*** Como funciona o Painel Interativo do Mapa de Conhecimento
+
+Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda dinamicamente para exibir os documentos correspondentes.
+
+[[file:okmaps-painel.org][Veja como otimizar sua triagem dentro do painel interativo.]]
+
+#+BEGIN_QUOTE
+*Dica Pro:* Como o OK Maps renderiza seu mapa visual dinamicamente com base em um identificador exclusivo vinculado à sua string de busca, você pode copiar a URL direto da barra de endereços do seu navegador para salvá-la neste caderno Org-mode, compartilhá-la com uma equipe de pesquisa ou incorporá-la em um espaço de documentação de projeto.
+#+END_QUOTE
+
+

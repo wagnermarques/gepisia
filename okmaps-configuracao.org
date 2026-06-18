@@ -1,0 +1,15 @@
+#+TITLE: OK Maps - Configuração e Parâmetros
+#+SUBTITLE: Passo 1 do Fluxo de Trabalho
+#+OPTIONS: toc:nil
+
+Ao chegar na interface de busca, não digite apenas sua palavra-chave. Observe os parâmetros personalizados abaixo da barra de pesquisa:
+
+* Escolha a Base de Dados (Backend)
+- **BASE (Bielefeld Academic Search Engine):** Selecione para ciências gerais, engenharia, ciências sociais ou humanidades. Indexa mais de 300 milhões de documentos multilíngues, conjuntos de dados e preprints.
+- **PubMed:** Selecione se estiver mapeando tópicos biomédicos, ciências da vida ou saúde.
+
+* Refine o Tipo de Documento
+Você pode filtrar por todos os tipos de documentos ou buscar estritamente materiais de **acesso aberto** (open-access) se precisar de acesso imediato ao texto completo sem paywalls.
+
+* Intervalo de Tempo
+Limite para "Último ano" ou "Último mês" se estiver mapeando um campo técnico ou de IA altamente fluido e de ponta.

@@ -1,0 +1,20 @@
+#+TITLE: OK Maps - Estratégias de Análise
+#+OPTIONS: toc:nil
+
+* Identificar Pontes Interdisciplinares
+:PROPERTIES:
+:CUSTOM_ID: pontes-interdisciplinares
+:END:
+Procure por bolhas sobrepostas ou clusters apertados entre duas áreas que geralmente não se comunicam. Por exemplo, se você mapear um tópico educacional e encontrar uma bolha situada entre "Pedagogia" e "Dados de Aprendizado de Máquina", é muito provável que essa interseção contenha os artigos de ponte ativos e de ponta que você precisa.
+
+* Isolar os "Outliers"
+:PROPERTIES:
+:CUSTOM_ID: isolar-outliers
+:END:
+Procure por bolhas pequenas e isoladas, flutuando longe da massa central do mapa. Estas frequentemente contêm casos de uso únicos, metodologias inovadoras aplicadas de outros campos ou pontos de dados de nicho que as listas de busca linear padrão enterram na página 5.
+
+* Filtrar por Representação de Acesso Aberto
+:PROPERTIES:
+:CUSTOM_ID: acesso-aberto
+:END:
+Artigos de acesso aberto são destacados com um ícone de cadeado verde visível. Se um cluster específico for inteiramente verde, isso significa que essa sub-disciplina possui dados públicos altamente transparentes e reprodutíveis que você pode baixar imediatamente.

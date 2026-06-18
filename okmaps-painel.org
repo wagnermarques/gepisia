@@ -1,0 +1,13 @@
+#+TITLE: OK Maps - Painel Interativo e Triagem
+#+OPTIONS: toc:nil
+
+No painel interativo, você pode otimizar sua triagem de documentos:
+
+* Leia o TL;DR / Resumo
+Clique em um artigo para revisar seus metadados estruturais instantaneamente, sem sair do seu layout visual.
+
+* Busca Interna no Mapa
+Use a barra de pesquisa *dentro* da interface do mapa para destacar palavras-chave ou autores específicos entre os clusters que você já gerou.
+
+* Visualizador de PDF e Anotação Aberta
+Muitos documentos de acesso aberto abrirão um PDF diretamente dentro do frame do OK Maps. Ele se integra nativamente com o **Hypothes.is**, permitindo criar anotações web públicas ou privadas, destacar texto e tomar notas de forma colaborativa.
