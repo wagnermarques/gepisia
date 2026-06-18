@@ -3,6 +3,7 @@ GEPISIA - Projeto de Inteligência Artificial do Grupo GEPIS
 Demonstração de conceitos básicos de Machine Learning com Python.
 """
 
+import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
@@ -18,6 +19,28 @@ def carregar_dados():
     print(f"Número de características: {iris.data.shape[1]}")
     print(f"Classes: {list(iris.target_names)}\n")
     return iris
+
+
+def visualizar_dados(iris):
+    """Gera um gráfico de dispersão das duas primeiras características."""
+    cores = ["red", "green", "blue"]
+    for i, nome in enumerate(iris.target_names):
+        indices = iris.target == i
+        plt.scatter(
+            iris.data[indices, 0],
+            iris.data[indices, 1],
+            c=cores[i],
+            label=nome,
+            alpha=0.7,
+        )
+    plt.xlabel(iris.feature_names[0])
+    plt.ylabel(iris.feature_names[1])
+    plt.title("Dataset Iris — Distribuição por Espécie")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("iris_distribuicao.png")
+    plt.close()
+    print("Gráfico salvo em: iris_distribuicao.png\n")
 
 
 def treinar_modelo(iris):
@@ -54,5 +77,6 @@ def fazer_previsao(modelo, iris):
 if __name__ == "__main__":
     print("GEPISIA - Inteligência Artificial no GEPIS\n")
     iris = carregar_dados()
+    visualizar_dados(iris)
     modelo = treinar_modelo(iris)
     fazer_previsao(modelo, iris)
