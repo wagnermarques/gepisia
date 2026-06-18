@@ -30,7 +30,10 @@ valor aos resultados da pesquisa.
 | scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
 
 *** Elicit
-Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial [[./imgs/elicit-trial-offer.png]]
+Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
+
+#+ATTR_HTML: :width 100%
+[[./imgs/elicit-trial-offer.png]]
 
 Veja um exemplo de resultado retornado para "Which theoretical points
 about inclusive education are most contested?" ou seja, "quais os
@@ -55,23 +58,30 @@ fundamentadas na teoria. (Só em inglês)
 
    Não conseguimoscriar um link de compartilhamento
 
+   #+ATTR_HTML: :width 100%
    [[./imgs/scienceos-exemplo.png]]
 
+   #+ATTR_HTML: :width 100%
    [[./imgs/scienceos-exemplo-diagrama.png]]
 
 
 
 *** semanticscholar (https://www.semanticscholar.org)
+#+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-criandoconta-unesp.png]]
 
+#+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-criandoconta-unesp2.png]]
 
+#+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-criandoconta-unesp3.png]]
 
+#+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
 
 Exemplo de resultados de pesquisa:
 
+#+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-resultados.png]]
 
 *** inciteful (https://incitefulmed.com/academic)
@@ -89,10 +99,13 @@ Para artigos muito populares, seminais, ou basilar para uma tema de
 pesquisa, utilizar esta ferramenta para visualizar o entorno teórico
 relativo ao artigo.
 
+#+ATTR_HTML: :width 100%
 [[./imgs/inciteful-resultado1.png]]
 
+#+ATTR_HTML: :width 100%
 [[./imgs/inciteful-resultado2.png]]
 
+#+ATTR_HTML: :width 100%
 [[./imgs/inciteful-resultado3.png]]
 
 
@@ -101,6 +114,7 @@ relativo ao artigo.
 *** [[https://openalex.org/][openalex]]
 Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
 
+#+ATTR_HTML: :width 100%
 [[./imgs/openalex-resultados1.png]]
 
 
