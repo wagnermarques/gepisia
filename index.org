@@ -5,17 +5,25 @@
 #+OPTIONS: toc:2
 
 
-* Introduçãog
 
-Estas ferramentas citadas abaixo não só localizam artigos por
-localização de palavras chaves em cada cada um deles, mas estas
-apresentadas aqui leem os textos para obter informações que agregam
-valor aos resultados da pesquisa.
 
-* Tópicos
+* Introdução
+
+Este texto pretende ser uma síntese da apresentação sobre IA no grupo
+do GEPIS.
+
+O Objetivo é deixar uma fonte de consulta pós apresentação.
+
+Os tópicos abordados exposição abordados aqui são:
+
 + Engenharia de Prompts
++ Agentes
 + Ferramentas de IA para o dia a dia
 + IA para Ciência
+  Ferramentas de pesquisa em perídicos que que não só localizam
+  artigos por palavras chaves em cada cada um deles, mas estas
+apresentadas aqui leem os textos para obter informações que agregam
+valor aos resultados da pesquisa.
 
 
 
