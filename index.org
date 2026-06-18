@@ -21,9 +21,7 @@ Os tópicos abordados exposição abordados aqui são:
 + Ferramentas de IA para o dia a dia
 + IA para Ciência
   Ferramentas de pesquisa em perídicos que que não só localizam
-  artigos por palavras chaves em cada cada um deles, mas estas
-apresentadas aqui leem os textos para obter informações que agregam
-valor aos resultados da pesquisa.
+  artigos por palavras chaves em cada cada um deles, mas estas apresentadas aqui leem os textos para obter informações que agregam valor aos resultados da pesquisa.
 
 
 
