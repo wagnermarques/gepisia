@@ -6,8 +6,6 @@
 #+HTML_TOC_HEADER: <h2 class="title">Sumário</h2>
 
 
-
-
 * Introdução
 
 Este texto pretende ser uma síntese da apresentação sobre IA no grupo
@@ -28,7 +26,8 @@ Os tópicos abordados exposição abordados aqui são:
 
 
 * IA para ciência - Pesquisas em Periódicos
-** Para Ciência em Geral
+
+** Resumo das Ferramentas de IA para pesquisa
 
 | Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
 |------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,8 +35,11 @@ Os tópicos abordados exposição abordados aqui são:
 | Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
 | PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
 | scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
+| Scopus     |                                    | Elsevier é bastante tradicional                                                                                                                      |
+|            |                                    |                                                                                                                                                      |
 
-*** Scopus da Elsevier
+
+** Ferramenta Scopus da Elsevier
 
 A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier 
 
@@ -58,7 +60,13 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
   A sintaxe de pesquisa é construída por meio de linguagem natural  
 
 
-*** Elicit
+** Ferramenta de pesquisa Elicit
+
++ Link de acesso
+
+  https://elicit.com/
+
+  
 Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
 
 #+ATTR_HTML: :width 100%
