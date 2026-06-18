@@ -1,11 +1,11 @@
-#+TITLE: Pesquisa Visual com Open Knowledge Maps (OK Maps)
+#+TITLE: Ferramentas de Pesquisa em periódicos que usam IA
 #+AUTHOR: GEPIS com ajuda do Gemini 3.5 flash e pro
 #+EMAIL: contato@gepis.org
 #+LANGUAGE: pt-br
 #+OPTIONS: toc:2
 
 
-* Introdução
+* Introduçãog
 
 Estas ferramentas citadas abaixo não só localizam artigos por
 localização de palavras chaves em cada cada um deles, mas estas
