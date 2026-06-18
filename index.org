@@ -1,4 +1,4 @@
-#+TITLE: Ferramentas de Pesquisa em periódicos que usam IA
+#+TITLE: Síntese dos Assuntos da Apresentação sobre IA (GEPIS)
 #+AUTHOR: GEPIS com ajuda do Gemini 3.5 flash e pro
 #+EMAIL: contato@gepis.org
 #+LANGUAGE: pt-br
