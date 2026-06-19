@@ -31,9 +31,9 @@
 ** agente Academic Assistent Prof (Terlys)
 
 
-* IA para Pesquisa Bibliograficas
+* IA para Pesquisas Bibliograficas
 
-Antigamente as pesquisas bibliográficas retornavam resultados apenas
+Antes das IAs, as pesquisas bibliográficas retornavam resultados apenas
 com base em palavras chaves. Com o uso de IA, a pesquisa, antes de
 retornar os resultados, lê o conteúdo antes e provê diferente formas
 de organização do retorno com base no conteúdo.
@@ -86,7 +86,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    + Mais informações
      
 
-** Ferramenta de pesquisa Elicit
+** Ferramenta Elicit
 
    + Resumo
   
@@ -113,10 +113,10 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      
    + Mais informações
 
-     [[https://support.elicit.com/en/][Consulte aqui como usar]] o elicit
+     [[https://support.elicit.com/en/][Consulte aqui para saber mais sobre como usar]] o Elicit
      
 
-** Consensus (https://consensus.app)
+** Ferramenta Consensus
 
    + Resumo
 
@@ -148,7 +148,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://www.youtube.com/@ConsensusNLP  
 
      
-** scienceos (https://www.scienceos.ai)
+** Ferramenta ScienceOs
 
    + Resumo
 
@@ -186,84 +186,115 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      
 
 
-** semanticscholar (https://www.semanticscholar.org)
 
+** Ferramenta SemanticScholar
 
-   #+BEGIN_CARROSSEL
+   + Resumo
 
-   #+ATTR_HTML: :width 70%
-   [[./imgs/semanticscholar-criandoconta-unesp.png]]
+     
+     
+   + Link de Acesso
 
-   #+ATTR_HTML: :width 50%
-   [[./imgs/semanticscholar-criandoconta-unesp2.png]]
+     https://www.semanticscholar.org/
+   
+   + Demostração
 
-   #+ATTR_HTML: :width 70%
-   [[./imgs/semanticscholar-criandoconta-unesp3.png]]
+     #+BEGIN_CARROSSEL
 
-   #+ATTR_HTML: :width 70%
-   [[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
+     #+ATTR_HTML: :width 70%
+     [[./imgs/semanticscholar-criandoconta-unesp.png]]
+
+     #+ATTR_HTML: :width 50%
+     [[./imgs/semanticscholar-criandoconta-unesp2.png]]
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/semanticscholar-criandoconta-unesp3.png]]
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
 
    #+END_CARROSSEL
-
    
    Exemplo de resultados de pesquisa:
-
 
    #+ATTR_HTML: :width 70%
    [[./imgs/semanticscholar-resultados.png]]
 
 
+   
+   + Mais informações
+     
+   https://www.semanticscholar.org/product/tutorials
 
-** inciteful (https://incitefulmed.com/academic)
 
+   
+** inciteful 
 
    + Resumo
-  
+
+     Muito interessante pra pesquisar quem citou quem a partir de um
+     artigo específico. Artigos seminais são candidatos naturais para
+     uso nesta ferramenta de pesquisa.
+
+     Por focar nas relações entre as referencias bibliográficas
+     exporta para o zotero. Assim que possível pesquisaremos se
+     exporta para o mendeley.
+     
+     
    + Link de Acesso
 
+     https://incitefulmed.com/academic
+
+     
    + Demostração
-  
+
+     Estas três imagens abaixo ilustra o resultado da pesquisa sobre
+     um artigo da professora Anna Augusta sem precisar ir no site da
+     Iciteful. Mas vale a visita ao site. Digite o nome da professora
+     ou um outro nome para visualizar os resultados.
+        
+     O interessante do inciteful é que não solicitou cartao e traz à
+     tona todo o contexto dos artigos mais relacionados ao tema de um
+     artigo específico.
+        
+     Para artigos muito populares, seminais, ou basilar para uma tema
+     de pesquisa, utilizar esta ferramenta para visualizar o entorno
+     teórico relativo ao artigo.
+
+     #+BEGIN_CARROSSEL
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/inciteful-resultado1.png]]
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/inciteful-resultado2.png]]
+     
+     #+ATTR_HTML: :width 70%
+     [[./imgs/inciteful-resultado3.png]]
+
+     #+END_CARROSSEL
+
    + Mais informações
 
+     https://incitefulmed.com/academic/help/quick-start
 
-Estas tres imagens abaixo ilustra o resultado da pesquisa sobre um
-artigo da professora Anna Augusta sem precisar ir no site da
-inciteful. Mas vale a visita ao site. Digite o nome da professora ou
-um outro nome para visualizar os resultados.
+     https://incitefulmed.com/academic/help/
 
-O interessante do inciteful é que não solicitou cartao e traz à tona
-todo o contexto dos artigos mais relacionados ao tema de um artigo
-específico.
+** [[https://openalex.org/][Ferramenta Openalex]]
 
-Para artigos muito populares, seminais, ou basilar para uma tema de
-pesquisa, utilizar esta ferramenta para visualizar o entorno teórico
-relativo ao artigo.
+   Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
 
-#+ATTR_HTML: :width 70%
-[[./imgs/inciteful-resultado1.png]]
-
-#+ATTR_HTML: :width 70%
-[[./imgs/inciteful-resultado2.png]]
-
-#+ATTR_HTML: :width 70%
-[[./imgs/inciteful-resultado3.png]]
+   #+ATTR_HTML: :width 70%
+   [[./imgs/openalex-resultados1.png]]
 
 
-* Focadas Na Ciencia Aberta
+** Ferramenta Open Knowledge Maps (OK Maps)
+   Open Knowledge Maps nos ajuda a escapar da armadilha da
+   "lista infinita" dos mecanismos de busca tradicionais pois agrupa
+   artigos por similaridade de texto (títulos, resumos e metadados).
+   Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
 
-*** [[https://openalex.org/][openalex]]
-Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
-
-#+ATTR_HTML: :width 70%
-[[./imgs/openalex-resultados1.png]]
-
-
-[[https://openknowledgemaps.org/][*** Open Knowledge Maps (OK Maps)]]
-Open Knowledge Maps nos ajuda a escapar da armadilha da
-"lista infinita" dos mecanismos de busca tradicionais pois agrupa
-artigos por similaridade de texto (títulos, resumos e metadados).
-Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
-
+https://openknowledgemaps.org
 
 *** Fluxo de Trabalho para Revisões de Literatura
 - [[file:okmaps-configuracao.org][Passo 1: Definindo Fonte e Parâmetros]]
