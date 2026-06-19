@@ -96,26 +96,24 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://elicit.com/
 
    + Demostração
+  
+     Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
 
+     #+ATTR_HTML: :width 100%
+     [[./imgs/elicit-trial-offer.png]]
+
+     Veja um exemplo de resultado retornado para "Which theoretical
+     points about inclusive education are most contested?" ou seja,
+     "quais os pontos teóricos sobre educação inclusiva são mais
+     contestados?"
+     
+     Veja [[https://elicit.com/agent/a50a8298-c5fb-4597-9c9f-5364885c562e][aqui]] o resultado de uma pesquisa
      
    + Mais informações
 
-  
-Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
-
-#+ATTR_HTML: :width 100%
-[[./imgs/elicit-trial-offer.png]]
-
-Veja um exemplo de resultado retornado para "Which theoretical points
-about inclusive education are most contested?" ou seja, "quais os
-pontos teóricos sobre educação inclusiva são mais contestados?"
-
-Veja [[https://elicit.com/agent/a50a8298-c5fb-4597-9c9f-5364885c562e][aqui]] o resultado 
-
-O legal é que vc pode fazer perguntas de pesquisa e obter responstas
-fundamentadas na teoria. (Só em inglês)
-
-**** Consensus (https://consensus.app)
+     [[https://support.elicit.com/en/][Consulte aqui como usar]] o elicit
+     
+** Consensus (https://consensus.app)
 
 - Exemplos
 
@@ -124,7 +122,7 @@ fundamentadas na teoria. (Só em inglês)
 - Links uteis
   https://www.youtube.com/@ConsensusNLP  
   
-**** scienceos (https://www.scienceos.ai)
+** scienceos (https://www.scienceos.ai)
 - Exemplo
 
    Não conseguimoscriar um link de compartilhamento
@@ -137,7 +135,7 @@ fundamentadas na teoria. (Só em inglês)
 
 
 
-**** semanticscholar (https://www.semanticscholar.org)
+** semanticscholar (https://www.semanticscholar.org)
 #+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-criandoconta-unesp.png]]
 
@@ -155,7 +153,7 @@ Exemplo de resultados de pesquisa:
 #+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-resultados.png]]
 
-**** inciteful (https://incitefulmed.com/academic)
+** inciteful (https://incitefulmed.com/academic)
 
 Estas tres imagens abaixo ilustra o resultado da pesquisa sobre um
 artigo da professora Anna Augusta sem precisar ir no site da
