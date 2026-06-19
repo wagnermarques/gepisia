@@ -134,11 +134,14 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      Agente no chatgpt (Prof. Terlys)
 
+     
+     #+ATTR_HTML: :width 70%
      [[./imgs/consesus-demo.png]]
 
      Consulte [[https://consensus.app/search/defectologia-e-conhecimento-pedagogico/Sb6iA8yJRyKB4UvKi8qebw/?utm_source=share&utm_medium=clipboard][aqui]] e  [[https://consensus.app/search/quais-tipos-de-inclusao-escolar-sao-mais-efetivas/vPQERQjpQTqhH6LLK4UOrA/?utm_source=share&utm_medium=clipboard][aqui]] resultados obtidos da consesus
 
      Este resultado [[https://consensus.app/search/vitamina-k2-e-boa-para-absorcao-de-calcio/CUguSAVoRxOCSqphwKaNAA/?utm_source=share&utm_medium=clipboard][aqui]] traz o a métrica de consensu
+
      
    + Mais informações
 
@@ -179,26 +182,37 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    
    + Mais informações
 
+     https://www.scienceos.ai/articles/beginners-guide/
+     
 
 
 ** semanticscholar (https://www.semanticscholar.org)
 
-#+ATTR_HTML: :width 70%
-[[./imgs/semanticscholar-criandoconta-unesp.png]]
 
-#+ATTR_HTML: :width 50%
-[[./imgs/semanticscholar-criandoconta-unesp2.png]]
+   #+BEGIN_CARROSSEL
 
-#+ATTR_HTML: :width 70%
-[[./imgs/semanticscholar-criandoconta-unesp3.png]]
+   #+ATTR_HTML: :width 70%
+   [[./imgs/semanticscholar-criandoconta-unesp.png]]
 
-#+ATTR_HTML: :width 70%
-[[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
+   #+ATTR_HTML: :width 50%
+   [[./imgs/semanticscholar-criandoconta-unesp2.png]]
 
-Exemplo de resultados de pesquisa:
+   #+ATTR_HTML: :width 70%
+   [[./imgs/semanticscholar-criandoconta-unesp3.png]]
 
-#+ATTR_HTML: :width 70%
-[[./imgs/semanticscholar-resultados.png]]
+   #+ATTR_HTML: :width 70%
+   [[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
+
+   #+END_CARROSSEL
+
+   
+   Exemplo de resultados de pesquisa:
+
+
+   #+ATTR_HTML: :width 70%
+   [[./imgs/semanticscholar-resultados.png]]
+
+
 
 ** inciteful (https://incitefulmed.com/academic)
 
