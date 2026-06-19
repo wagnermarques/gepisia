@@ -72,7 +72,9 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      O LeapSpace é um chat de IA, mas as respostas provêm de artigos com as devidas citações
 
+     Requer login com email da universidade e conexao com a eduroam
      
+   
    + Link de Acesso
 
      https://www.sciencedirect.com/leapspace
@@ -113,33 +115,65 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      [[https://support.elicit.com/en/][Consulte aqui como usar]] o elicit
      
+
 ** Consensus (https://consensus.app)
 
-- Exemplos
+   + Resumo
 
-  Acesse um exemplo de pesquisa [[https://consensus.app/search/quais-tipos-de-inclusao-escolar-sao-mais-efetivas/vPQERQjpQTqhH6LLK4UOrA/?utm_source=share&utm_medium=clipboard][aqui]]
+     Resultados com recursos gráficos muito interessantes
 
-- Links uteis
-  https://www.youtube.com/@ConsensusNLP  
+     O recurso gráfico mais famoso é a barra da métrica de consenso
+     
+  
+   + Link de Acesso
+
+     https://consensus.app/
+     
+
+   + Demostração
+
+     Agente no chatgpt (Prof. Terlys)
+
+     [[./imgs/consesus-demo.png]]
+
+     Consulte [[https://consensus.app/search/defectologia-e-conhecimento-pedagogico/Sb6iA8yJRyKB4UvKi8qebw/?utm_source=share&utm_medium=clipboard][aqui]] e  [[https://consensus.app/search/quais-tipos-de-inclusao-escolar-sao-mais-efetivas/vPQERQjpQTqhH6LLK4UOrA/?utm_source=share&utm_medium=clipboard][aqui]] resultados obtidos da consesus
+
+     Este resultado [[https://consensus.app/search/vitamina-k2-e-boa-para-absorcao-de-calcio/CUguSAVoRxOCSqphwKaNAA/?utm_source=share&utm_medium=clipboard][aqui]] traz o a métrica de consensu
+     
+   + Mais informações
+
+     https://www.youtube.com/@ConsensusNLP  
   
 ** scienceos (https://www.scienceos.ai)
-- Exemplo
+
+   + Resumo
+  
+   + Link de Acesso
+
+   + Demostração
 
    Não conseguimoscriar um link de compartilhamento
 
+   #+BEGIN_CARROSSEL
+   
    #+ATTR_HTML: :width 70%
    [[./imgs/scienceos-exemplo.png]]
 
    #+ATTR_HTML: :width 70%
    [[./imgs/scienceos-exemplo-diagrama.png]]
 
+   #+END_CARROSSEL
+   
+   
+   + Mais informações
+
 
 
 ** semanticscholar (https://www.semanticscholar.org)
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/semanticscholar-criandoconta-unesp.png]]
 
-#+ATTR_HTML: :width 70%
+#+ATTR_HTML: :width 50%
 [[./imgs/semanticscholar-criandoconta-unesp2.png]]
 
 #+ATTR_HTML: :width 70%
@@ -154,6 +188,16 @@ Exemplo de resultados de pesquisa:
 [[./imgs/semanticscholar-resultados.png]]
 
 ** inciteful (https://incitefulmed.com/academic)
+
+
+   + Resumo
+  
+   + Link de Acesso
+
+   + Demostração
+  
+   + Mais informações
+
 
 Estas tres imagens abaixo ilustra o resultado da pesquisa sobre um
 artigo da professora Anna Augusta sem precisar ir no site da
