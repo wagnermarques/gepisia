@@ -99,7 +99,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
   
      Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
 
-     #+ATTR_HTML: :width 100%
+     #+ATTR_HTML: :width 70%
      [[./imgs/elicit-trial-offer.png]]
 
      Veja um exemplo de resultado retornado para "Which theoretical
@@ -127,10 +127,10 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
    Não conseguimoscriar um link de compartilhamento
 
-   #+ATTR_HTML: :width 100%
+   #+ATTR_HTML: :width 70%
    [[./imgs/scienceos-exemplo.png]]
 
-   #+ATTR_HTML: :width 100%
+   #+ATTR_HTML: :width 70%
    [[./imgs/scienceos-exemplo-diagrama.png]]
 
 
@@ -139,18 +139,18 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 #+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-criandoconta-unesp.png]]
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/semanticscholar-criandoconta-unesp2.png]]
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/semanticscholar-criandoconta-unesp3.png]]
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
 
 Exemplo de resultados de pesquisa:
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/semanticscholar-resultados.png]]
 
 ** inciteful (https://incitefulmed.com/academic)
@@ -168,13 +168,13 @@ Para artigos muito populares, seminais, ou basilar para uma tema de
 pesquisa, utilizar esta ferramenta para visualizar o entorno teórico
 relativo ao artigo.
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/inciteful-resultado1.png]]
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/inciteful-resultado2.png]]
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/inciteful-resultado3.png]]
 
 
@@ -183,7 +183,7 @@ relativo ao artigo.
 *** [[https://openalex.org/][openalex]]
 Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
 
-#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :width 70%
 [[./imgs/openalex-resultados1.png]]
 
 
