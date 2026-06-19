@@ -1,43 +1,36 @@
-#+TITLE: Síntese (Roteiro) dos Assuntos da Apresentação sobre IA (GEPIS)
+#+TITLE: Uso de IA para Pesquisa Científica
 #+AUTHOR: GEPIS com ajuda do Gemini 3.5 flash e pro
 #+EMAIL: contato@gepis.org
 #+LANGUAGE: pt-br
 #+OPTIONS: toc:t
 
+* Introdução (Prof. Terlys)
+
+   - Contextualização e Conceitos com base na palestra do Prof. Denis
+
+   - Posicionamento Teórico e necessidade de orientação
+
+     A IA retorna conteúdos sem nenhum critério, ela não tem um
+     posicionamento teórico e ela erra também.
+
+     Por esse motivo é fundamental consutar o orientador para questões
+     epistemológicas durante a construção da revisão bibliográfica.
+     
+   - IA Não faz Rev Bibliográfica (É só uma ferramenta)
+
+     O Planejamento da Revisão Bibliográfica deve ser feito antes do uso
+     da IA e é de responsabilidade do pesquisador.
+
+   - Declaração de Uso da IA (Links)
+     
+
+* Engenharia de Prompt (Prof. Terlys)
+
+* IA Para Escrita Científica
+** agente Academic Assistent Prof (Terlys)
 
 
-* Introdução
-
-Este texto pretende ser uma síntese da apresentação sobre IA no grupo
-do GEPIS.
-
-O Objetivo é deixar uma fonte de consulta pós apresentação.
-
-Os tópicos abordados exposição abordados aqui são:
-
-+ Engenharia de Prompts
-+ Agentes
-+ Ferramentas de IA para o dia a dia
-+ IA para Ciência - Pesquisas em Periódicos
-  
-  Ferramentas de pesquisa em perídicos que que não só localizam
-  artigos por palavras chaves em cada cada um deles, mas estas apresentadas aqui leem os textos para obter informações que agregam valor aos resultados da pesquisa.
-
-
-
-* IA para ciência - Pesquisas em Periódicos
-
-** Resumo das Ferramentas de IA para pesquisa
-
-| Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
-|------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Scopus     |                                    | Elsevier é bastante tradicional                                                                                                                      |
-| Elicit     | Extração de dados estruturados     | Permite carregar milhares de PDFs ou consultar sua base para criar tabelas comparativas automatizadas (ex: extraindo amostras ou doses).             |
-| Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
-| PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
-| scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
-|            |                                    |                                                                                                                                                      |
-
+* IA para pesquisa bibliograficas
 
 ** Ferramenta Scopus da Elsevier
 
@@ -68,7 +61,8 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
   
   A sintaxe de pesquisa é construída por meio de linguagem natural  
 
-*** Ferramenta sicencedirect-LeapSpace da Elsevier
+
+** Ferramenta sicencedirect-LeapSpace da Elsevier
 
    + Resumo
      
@@ -79,6 +73,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://www.sciencedirect.com/leapspace
 
    +   
+
 
 ** Ferramenta de pesquisa Elicit
 
@@ -101,7 +96,7 @@ Veja [[https://elicit.com/agent/a50a8298-c5fb-4597-9c9f-5364885c562e][aqui]] o r
 O legal é que vc pode fazer perguntas de pesquisa e obter responstas
 fundamentadas na teoria. (Só em inglês)
 
-*** Consensus (https://consensus.app)
+**** Consensus (https://consensus.app)
 
 - Exemplos
 
@@ -110,7 +105,7 @@ fundamentadas na teoria. (Só em inglês)
 - Links uteis
   https://www.youtube.com/@ConsensusNLP  
   
-*** scienceos (https://www.scienceos.ai)
+**** scienceos (https://www.scienceos.ai)
 - Exemplo
 
    Não conseguimoscriar um link de compartilhamento
@@ -123,7 +118,7 @@ fundamentadas na teoria. (Só em inglês)
 
 
 
-*** semanticscholar (https://www.semanticscholar.org)
+**** semanticscholar (https://www.semanticscholar.org)
 #+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-criandoconta-unesp.png]]
 
@@ -141,7 +136,7 @@ Exemplo de resultados de pesquisa:
 #+ATTR_HTML: :width 100%
 [[./imgs/semanticscholar-resultados.png]]
 
-*** inciteful (https://incitefulmed.com/academic)
+**** inciteful (https://incitefulmed.com/academic)
 
 Estas tres imagens abaixo ilustra o resultado da pesquisa sobre um
 artigo da professora Anna Augusta sem precisar ir no site da
@@ -166,7 +161,7 @@ relativo ao artigo.
 [[./imgs/inciteful-resultado3.png]]
 
 
-** Focadas Na Ciencia Aberta
+* Focadas Na Ciencia Aberta
 
 *** [[https://openalex.org/][openalex]]
 Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
@@ -202,6 +197,20 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 #+BEGIN_QUOTE
 *Dica Pro:* Como o OK Maps renderiza seu mapa visual dinamicamente com base em um identificador exclusivo vinculado à sua string de busca, você pode copiar a URL direto da barra de endereços do seu navegador para salvá-la neste caderno Org-mode, compartilhá-la com uma equipe de pesquisa ou incorporá-la em um espaço de documentação de projeto.
 #+END_QUOTE
+
+
+
+
+* Resumo das Ferramentas de IA para pesquisa científica
+
+| Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
+|------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Scopus     |                                    | Elsevier é bastante tradicional                                                                                                                      |
+| Elicit     | Extração de dados estruturados     | Permite carregar milhares de PDFs ou consultar sua base para criar tabelas comparativas automatizadas (ex: extraindo amostras ou doses).             |
+| Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
+| PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
+| scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
+|            |                                    |                                                                                                                                                      |
 
 
 * Proximos Passos
