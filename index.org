@@ -31,17 +31,26 @@ Os tópicos abordados exposição abordados aqui são:
 
 | Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
 |------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Scopus     |                                    | Elsevier é bastante tradicional                                                                                                                      |
 | Elicit     | Extração de dados estruturados     | Permite carregar milhares de PDFs ou consultar sua base para criar tabelas comparativas automatizadas (ex: extraindo amostras ou doses).             |
 | Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
 | PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
 | scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
-| Scopus     |                                    | Elsevier é bastante tradicional                                                                                                                      |
 |            |                                    |                                                                                                                                                      |
 
 
 ** Ferramenta Scopus da Elsevier
 
-A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier 
+A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
+
++ Resumo
+
+  Ative o "AI Query Builder" e escreva sua pesquisa com linguagem
+  natural e a ferramenta cria a sintaxe de pesquisa com os respectivos
+  "AND" e "OR" pra vc.
+
+  Precisa do email da universidade e estar conectado com eduroam
+  
 
 + Link de acesso:
 
@@ -59,6 +68,17 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
   
   A sintaxe de pesquisa é construída por meio de linguagem natural  
 
+*** Ferramenta sicencedirect-LeapSpace da Elsevier
+
+   + Resumo
+     
+     Um chat de IA, mas as respostas provêm de artigos com as devidas citações
+
+   + Link de acesso:
+
+     https://www.sciencedirect.com/leapspace
+
+   +   
 
 ** Ferramenta de pesquisa Elicit
 
@@ -184,3 +204,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 #+END_QUOTE
 
 
+* Proximos Passos
+  + Quais ferramentas de pesquisa pesquisam em quais bases?
+  + Quais as bases mais tradicionais por área do conhecimento?
+  
