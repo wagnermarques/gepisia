@@ -26,11 +26,17 @@
 
 * Engenharia de Prompt (Prof. Terlys)
 
+
 * IA Para Escrita Científica
 ** agente Academic Assistent Prof (Terlys)
 
 
-* IA para pesquisa bibliograficas
+* IA para Pesquisa Bibliograficas
+
+Antigamente as pesquisas bibliográficas retornavam resultados apenas
+com base em palavras chaves. Com o uso de IA, a pesquisa, antes de
+retornar os resultados, lê o conteúdo antes e provê diferente formas
+de organização do retorno com base no conteúdo.
 
 ** Ferramenta Scopus da Elsevier
 
@@ -49,37 +55,50 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
   https://www.scopus.com/
 
+  
 + Demonstração de pesquisa
   
   [[./imgs/scopus-demo.png][Clicar aqui para abrir a demo]]
+
   
 + Mais informações sobre a ferramenta
   
   [[https://service.elsevier.com/app/answers/detail/a_id/14799/supporthub/scopus/#doc][Tutoriais oficiais do scopus]]
 
-+ Como funciona a Ia nesta ferramenta?
-  
-  A sintaxe de pesquisa é construída por meio de linguagem natural  
-
 
 ** Ferramenta sicencedirect-LeapSpace da Elsevier
 
    + Resumo
-     
-     Um chat de IA, mas as respostas provêm de artigos com as devidas citações
 
-   + Link de acesso:
+     O LeapSpace é um chat de IA, mas as respostas provêm de artigos com as devidas citações
+
+     
+   + Link de Acesso
 
      https://www.sciencedirect.com/leapspace
 
-   +   
+     
+   + Demostração
 
+     
+   + Mais informações
+     
 
 ** Ferramenta de pesquisa Elicit
 
-+ Link de acesso
+   + Resumo
+  
+     Apesar de ser uma ferramenta paga, o trial de 7 dias pode ser
+     muitíssimo útil durante a elaboração de uma pesquisa bibliográfica.
+   
+   + Link de Acesso
 
-  https://elicit.com/
+     https://elicit.com/
+
+   + Demostração
+
+     
+   + Mais informações
 
   
 Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
@@ -175,6 +194,7 @@ Open Knowledge Maps nos ajuda a escapar da armadilha da
 "lista infinita" dos mecanismos de busca tradicionais pois agrupa
 artigos por similaridade de texto (títulos, resumos e metadados).
 Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
+
 
 *** Fluxo de Trabalho para Revisões de Literatura
 - [[file:okmaps-configuracao.org][Passo 1: Definindo Fonte e Parâmetros]]
