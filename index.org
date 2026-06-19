@@ -81,11 +81,11 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      
    + Demostração
-
+     (Tem agente? Ver c/ prof. Terlys)
      
    + Mais informações
      
-
+     
 ** Ferramenta Elicit
 
    + Resumo
@@ -98,7 +98,9 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://elicit.com/
 
    + Demostração
-  
+
+     (Tem agente? Ver c/ prof. Terlys)
+          
      Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
 
      #+ATTR_HTML: :width 70%
@@ -158,6 +160,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      Viabiliza criação de diagramas com boa qualidade
 
      Conseguimos acessar publicamente
+
      
    + Link de Acesso
 
@@ -166,6 +169,8 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
    + Demostração
 
+     (Tem agente? Ver c/ prof. Terlys)
+   
      #+ATTR_HTML: :width 70%
      [[./imgs/scienceos-demo.png]]
      
@@ -196,9 +201,12 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    + Link de Acesso
 
      https://www.semanticscholar.org/
-   
+
+     
    + Demostração
 
+     (Tem agente? Ver c/ prof. Terlys)
+     
      #+BEGIN_CARROSSEL
 
      #+ATTR_HTML: :width 70%
@@ -213,22 +221,21 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      #+ATTR_HTML: :width 70%
      [[./imgs/semanticscholar-exemplo-resultado-pesquisa.png]]
 
-   #+END_CARROSSEL
+     #+END_CARROSSEL
    
-   Exemplo de resultados de pesquisa:
+     Exemplo de resultados de pesquisa:
 
-   #+ATTR_HTML: :width 70%
-   [[./imgs/semanticscholar-resultados.png]]
+     #+ATTR_HTML: :width 70%
+     [[./imgs/semanticscholar-resultados.png]]
 
-
-   
+     
    + Mais informações
      
-   https://www.semanticscholar.org/product/tutorials
+     https://www.semanticscholar.org/product/tutorials
 
 
    
-** inciteful 
+** Ferramenta Inciteful 
 
    + Resumo
 
@@ -247,6 +254,8 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      
    + Demostração
+
+     (Tem agente? Ver c/ prof. Terlys)
 
      Estas três imagens abaixo ilustra o resultado da pesquisa sobre
      um artigo da professora Anna Augusta sem precisar ir no site da
@@ -280,8 +289,24 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      https://incitefulmed.com/academic/help/
 
-** [[https://openalex.org/][Ferramenta Openalex]]
 
+** Ferramenta Openalex
+
+   + Resumo
+
+     
+   + Link de Acesso
+
+     https://openalex.org
+     
+   
+   + Demonstração
+
+     (Tem agente? Ver c/ prof. Terlys)
+          
+     
+   + Mais informações
+       
    Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
 
    #+ATTR_HTML: :width 70%
@@ -294,7 +319,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    artigos por similaridade de texto (títulos, resumos e metadados).
    Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
 
-https://openknowledgemaps.org
+   https://openknowledgemaps.org
 
 *** Fluxo de Trabalho para Revisões de Literatura
 - [[file:okmaps-configuracao.org][Passo 1: Definindo Fonte e Parâmetros]]
@@ -334,6 +359,12 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
 
 * Proximos Passos
+
+Este texto é só a organização inicial das ferramentas de IA capazes
+  de colaborar com a produção científica, sendo assim é uma lista não
+  exaustiva e que carece ainda de mais esforços no sentido de fornecer
+  informações sobre as perguntas abaixo:
+  
+  + Existem mais ferramentas de IA para pesquisa, como classificá-las?
   + Quais ferramentas de pesquisa pesquisam em quais bases?
   + Quais as bases mais tradicionais por área do conhecimento?
-  
