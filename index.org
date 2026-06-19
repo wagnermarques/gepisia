@@ -143,17 +143,29 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    + Mais informações
 
      https://www.youtube.com/@ConsensusNLP  
-  
+
+     
 ** scienceos (https://www.scienceos.ai)
 
    + Resumo
-  
+
+     Em princípio, mais um chat cujas respostas são provenientes de
+     conteúdos de artigos científicos com as devidas citações.
+
+     Viabiliza criação de diagramas com boa qualidade
+
+     Conseguimos acessar publicamente
+     
    + Link de Acesso
+
+     https://app.scienceos.ai/
+     
 
    + Demostração
 
-   Não conseguimoscriar um link de compartilhamento
-
+     #+ATTR_HTML: :width 70%
+     [[./imgs/scienceos-demo.png]]
+     
    #+BEGIN_CARROSSEL
    
    #+ATTR_HTML: :width 70%
@@ -170,6 +182,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
 
 ** semanticscholar (https://www.semanticscholar.org)
+
 #+ATTR_HTML: :width 70%
 [[./imgs/semanticscholar-criandoconta-unesp.png]]
 

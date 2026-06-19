@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 <head>
-<!-- 2026-06-19 sex 12:00 -->
+<!-- 2026-06-19 sex 14:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Uso de IA para Pesquisa Científica</title>
@@ -193,6 +193,117 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+
+<style>
+.custom-carousel-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 1.5em auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  background-color: #f9f9f9;
+  border: 1px solid #eaeaea;
+}
+.custom-carousel-slides {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+.custom-carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.custom-carousel-slide img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  user-select: none;
+}
+.custom-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #333;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.custom-carousel-btn:hover {
+  background: rgba(255, 255, 255, 0.85);
+  color: #000;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+}
+.custom-carousel-btn.prev {
+  left: 20px;
+}
+.custom-carousel-btn.next {
+  right: 20px;
+}
+.custom-carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+.custom-carousel-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.custom-carousel-dot.active {
+  background-color: #3b82f6;
+  transform: scale(1.2);
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+}
+@media (prefers-color-scheme: dark) {
+  .custom-carousel-wrapper {
+    background-color: #1e1e24;
+    border-color: #2e2e38;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  }
+  .custom-carousel-btn {
+    background: rgba(0, 0, 0, 0.25);
+    color: #eee;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  .custom-carousel-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+  }
+  .custom-carousel-dot {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .custom-carousel-dot.active {
+    background-color: #60a5fa;
+  }
+}
+</style>
+
 </head>
 <body>
 <div id="content" class="content">
@@ -201,43 +312,43 @@
 <h2 class="title">Sumário</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgad95216">1. Introdução (Prof. Terlys)</a></li>
-<li><a href="#org0046b9d">2. Engenharia de Prompt (Prof. Terlys)</a></li>
-<li><a href="#org4039604">3. IA Para Escrita Científica</a>
+<li><a href="#orgda2e868">1. Introdução (Prof. Terlys)</a></li>
+<li><a href="#org78a6cc4">2. Engenharia de Prompt (Prof. Terlys)</a></li>
+<li><a href="#org9f317eb">3. IA Para Escrita Científica</a>
 <ul>
-<li><a href="#orgd1251b9">3.1. agente Academic Assistent Prof (Terlys)</a></li>
+<li><a href="#org14d4295">3.1. agente Academic Assistent Prof (Terlys)</a></li>
 </ul>
 </li>
-<li><a href="#org557c2fa">4. IA para Pesquisa Bibliograficas</a>
+<li><a href="#org79a8bbb">4. IA para Pesquisa Bibliograficas</a>
 <ul>
-<li><a href="#org116351a">4.1. Ferramenta Scopus da Elsevier</a></li>
-<li><a href="#orgcbcddce">4.2. Ferramenta sicencedirect-LeapSpace da Elsevier</a></li>
-<li><a href="#orga16da5b">4.3. Ferramenta de pesquisa Elicit</a></li>
-<li><a href="#org2dfea48">4.4. Consensus (https://consensus.app)</a></li>
-<li><a href="#org280bb32">4.5. scienceos (https://www.scienceos.ai)</a></li>
-<li><a href="#org820a107">4.6. semanticscholar (https://www.semanticscholar.org)</a></li>
-<li><a href="#orgbf17948">4.7. inciteful (https://incitefulmed.com/academic)</a></li>
+<li><a href="#org7f34899">4.1. Ferramenta Scopus da Elsevier</a></li>
+<li><a href="#org842b828">4.2. Ferramenta sicencedirect-LeapSpace da Elsevier</a></li>
+<li><a href="#orgb9d2c38">4.3. Ferramenta de pesquisa Elicit</a></li>
+<li><a href="#org4c201e8">4.4. Consensus (https://consensus.app)</a></li>
+<li><a href="#org59d57c1">4.5. scienceos (https://www.scienceos.ai)</a></li>
+<li><a href="#org1c28644">4.6. semanticscholar (https://www.semanticscholar.org)</a></li>
+<li><a href="#orgad39e74">4.7. inciteful (https://incitefulmed.com/academic)</a></li>
 </ul>
 </li>
-<li><a href="#org6190a5b">5. Focadas Na Ciencia Aberta</a>
+<li><a href="#orgcddd313">5. Focadas Na Ciencia Aberta</a>
 <ul>
 <li>
 <ul>
-<li><a href="#orga4846d1">5.0.1. openalex</a></li>
-<li><a href="#org0e775c6">5.0.2. Fluxo de Trabalho para Revisões de Literatura</a></li>
-<li><a href="#orgbf7ba1e">5.0.3. Estratégias de Compreensão do Mapa de Conhecimento</a></li>
-<li><a href="#org3bd09c5">5.0.4. Como funciona o Painel Interativo do Mapa de Conhecimento</a></li>
+<li><a href="#org5077eba">5.0.1. openalex</a></li>
+<li><a href="#org71c46c1">5.0.2. Fluxo de Trabalho para Revisões de Literatura</a></li>
+<li><a href="#orga54d306">5.0.3. Estratégias de Compreensão do Mapa de Conhecimento</a></li>
+<li><a href="#org70e1f01">5.0.4. Como funciona o Painel Interativo do Mapa de Conhecimento</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org3b83eba">6. Resumo das Ferramentas de IA para pesquisa científica</a></li>
-<li><a href="#org264ef25">7. Proximos Passos</a></li>
+<li><a href="#org1d42db6">6. Resumo das Ferramentas de IA para pesquisa científica</a></li>
+<li><a href="#orgd48c33c">7. Proximos Passos</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgad95216" class="outline-2">
-<h2 id="orgad95216"><span class="section-number-2">1.</span> Introdução (Prof. Terlys)</h2>
+<div id="outline-container-orgda2e868" class="outline-2">
+<h2 id="orgda2e868"><span class="section-number-2">1.</span> Introdução (Prof. Terlys)</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li>Contextualização e Conceitos com base na palestra do Prof. Denis</li>
@@ -269,21 +380,21 @@ da IA e é de responsabilidade do pesquisador.
 </ul>
 </div>
 </div>
-<div id="outline-container-org0046b9d" class="outline-2">
-<h2 id="org0046b9d"><span class="section-number-2">2.</span> Engenharia de Prompt (Prof. Terlys)</h2>
+<div id="outline-container-org78a6cc4" class="outline-2">
+<h2 id="org78a6cc4"><span class="section-number-2">2.</span> Engenharia de Prompt (Prof. Terlys)</h2>
 </div>
 
 
-<div id="outline-container-org4039604" class="outline-2">
-<h2 id="org4039604"><span class="section-number-2">3.</span> IA Para Escrita Científica</h2>
+<div id="outline-container-org9f317eb" class="outline-2">
+<h2 id="org9f317eb"><span class="section-number-2">3.</span> IA Para Escrita Científica</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgd1251b9" class="outline-3">
-<h3 id="orgd1251b9"><span class="section-number-3">3.1.</span> agente Academic Assistent Prof (Terlys)</h3>
+<div id="outline-container-org14d4295" class="outline-3">
+<h3 id="org14d4295"><span class="section-number-3">3.1.</span> agente Academic Assistent Prof (Terlys)</h3>
 </div>
 </div>
-<div id="outline-container-org557c2fa" class="outline-2">
-<h2 id="org557c2fa"><span class="section-number-2">4.</span> IA para Pesquisa Bibliograficas</h2>
+<div id="outline-container-org79a8bbb" class="outline-2">
+<h2 id="org79a8bbb"><span class="section-number-2">4.</span> IA para Pesquisa Bibliograficas</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Antigamente as pesquisas bibliográficas retornavam resultados apenas
@@ -292,8 +403,8 @@ retornar os resultados, lê o conteúdo antes e provê diferente formas
 de organização do retorno com base no conteúdo.
 </p>
 </div>
-<div id="outline-container-org116351a" class="outline-3">
-<h3 id="org116351a"><span class="section-number-3">4.1.</span> Ferramenta Scopus da Elsevier</h3>
+<div id="outline-container-org7f34899" class="outline-3">
+<h3 id="org7f34899"><span class="section-number-3">4.1.</span> Ferramenta Scopus da Elsevier</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
 A <a href="https://www.scopus.com">scopus</a> é a ferramenta de busca da Elsevier
@@ -349,8 +460,8 @@ Mais informações sobre a ferramenta
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcbcddce" class="outline-3">
-<h3 id="orgcbcddce"><span class="section-number-3">4.2.</span> Ferramenta sicencedirect-LeapSpace da Elsevier</h3>
+<div id="outline-container-org842b828" class="outline-3">
+<h3 id="org842b828"><span class="section-number-3">4.2.</span> Ferramenta sicencedirect-LeapSpace da Elsevier</h3>
 <div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
 <li><p>
@@ -388,8 +499,8 @@ Link de Acesso
 </ul>
 </div>
 </div>
-<div id="outline-container-orga16da5b" class="outline-3">
-<h3 id="orga16da5b"><span class="section-number-3">4.3.</span> Ferramenta de pesquisa Elicit</h3>
+<div id="outline-container-orgb9d2c38" class="outline-3">
+<h3 id="orgb9d2c38"><span class="section-number-3">4.3.</span> Ferramenta de pesquisa Elicit</h3>
 <div class="outline-text-3" id="text-4-3">
 <ul class="org-ul">
 <li><p>
@@ -418,7 +529,7 @@ Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial
 </p>
 
 
-<div id="orge21a9e8" class="figure">
+<div id="orga6c177b" class="figure">
 <p><img src="./imgs/elicit-trial-offer.png" alt="elicit-trial-offer.png" width="70%" />
 </p>
 </div>
@@ -444,8 +555,8 @@ Mais informações
 </ul>
 </div>
 </div>
-<div id="outline-container-org2dfea48" class="outline-3">
-<h3 id="org2dfea48"><span class="section-number-3">4.4.</span> Consensus (<a href="https://consensus.app">https://consensus.app</a>)</h3>
+<div id="outline-container-org4c201e8" class="outline-3">
+<h3 id="org4c201e8"><span class="section-number-3">4.4.</span> Consensus (<a href="https://consensus.app">https://consensus.app</a>)</h3>
 <div class="outline-text-3" id="text-4-4">
 <ul class="org-ul">
 <li><p>
@@ -483,7 +594,7 @@ Agente no chatgpt (Prof. Terlys)
 </p>
 
 
-<div id="org24c0bc7" class="figure">
+<div id="org3df4ccd" class="figure">
 <p><img src="./imgs/consesus-demo.png" alt="consesus-demo.png" />
 </p>
 </div>
@@ -506,8 +617,8 @@ Mais informações
 </ul>
 </div>
 </div>
-<div id="outline-container-org280bb32" class="outline-3">
-<h3 id="org280bb32"><span class="section-number-3">4.5.</span> scienceos (<a href="https://www.scienceos.ai">https://www.scienceos.ai</a>)</h3>
+<div id="outline-container-org59d57c1" class="outline-3">
+<h3 id="org59d57c1"><span class="section-number-3">4.5.</span> scienceos (<a href="https://www.scienceos.ai">https://www.scienceos.ai</a>)</h3>
 <div class="outline-text-3" id="text-4-5">
 <ul class="org-ul">
 <li>Resumo</li>
@@ -521,18 +632,19 @@ Mais informações
 Não conseguimoscriar um link de compartilhamento
 </p>
 
-<div class="CARROSSEL" id="org9ba711c">
+
+<div class="CARROSSEL" id="org73feb67">
 <p>
    
 </p>
 
-<div id="org53d5486" class="figure">
+<div id="orgd7d6803" class="figure">
 <p><img src="./imgs/scienceos-exemplo.png" alt="scienceos-exemplo.png" width="70%" />
 </p>
 </div>
 
 
-<div id="org7d7890e" class="figure">
+<div id="orgf4151ed" class="figure">
 <p><img src="./imgs/scienceos-exemplo-diagrama.png" alt="scienceos-exemplo-diagrama.png" width="70%" />
 </p>
 </div>
@@ -545,29 +657,29 @@ Não conseguimoscriar um link de compartilhamento
 </ul>
 </div>
 </div>
-<div id="outline-container-org820a107" class="outline-3">
-<h3 id="org820a107"><span class="section-number-3">4.6.</span> semanticscholar (<a href="https://www.semanticscholar.org">https://www.semanticscholar.org</a>)</h3>
+<div id="outline-container-org1c28644" class="outline-3">
+<h3 id="org1c28644"><span class="section-number-3">4.6.</span> semanticscholar (<a href="https://www.semanticscholar.org">https://www.semanticscholar.org</a>)</h3>
 <div class="outline-text-3" id="text-4-6">
 
-<div id="org58f57fc" class="figure">
+<div id="orgb4ff560" class="figure">
 <p><img src="./imgs/semanticscholar-criandoconta-unesp.png" alt="semanticscholar-criandoconta-unesp.png" width="70%" />
 </p>
 </div>
 
 
-<div id="orgbd218be" class="figure">
+<div id="org9267054" class="figure">
 <p><img src="./imgs/semanticscholar-criandoconta-unesp2.png" alt="semanticscholar-criandoconta-unesp2.png" width="50%" />
 </p>
 </div>
 
 
-<div id="org5caf877" class="figure">
+<div id="orgb0c6a86" class="figure">
 <p><img src="./imgs/semanticscholar-criandoconta-unesp3.png" alt="semanticscholar-criandoconta-unesp3.png" width="70%" />
 </p>
 </div>
 
 
-<div id="org7d3d8ac" class="figure">
+<div id="orgf0f989b" class="figure">
 <p><img src="./imgs/semanticscholar-exemplo-resultado-pesquisa.png" alt="semanticscholar-exemplo-resultado-pesquisa.png" width="70%" />
 </p>
 </div>
@@ -577,14 +689,14 @@ Exemplo de resultados de pesquisa:
 </p>
 
 
-<div id="org53d82d8" class="figure">
+<div id="orgf5f3cf8" class="figure">
 <p><img src="./imgs/semanticscholar-resultados.png" alt="semanticscholar-resultados.png" width="70%" />
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orgbf17948" class="outline-3">
-<h3 id="orgbf17948"><span class="section-number-3">4.7.</span> inciteful (<a href="https://incitefulmed.com/academic">https://incitefulmed.com/academic</a>)</h3>
+<div id="outline-container-orgad39e74" class="outline-3">
+<h3 id="orgad39e74"><span class="section-number-3">4.7.</span> inciteful (<a href="https://incitefulmed.com/academic">https://incitefulmed.com/academic</a>)</h3>
 <div class="outline-text-3" id="text-4-7">
 <ul class="org-ul">
 <li>Resumo</li>
@@ -617,38 +729,38 @@ relativo ao artigo.
 </p>
 
 
-<div id="org05699ad" class="figure">
+<div id="orgedebf07" class="figure">
 <p><img src="./imgs/inciteful-resultado1.png" alt="inciteful-resultado1.png" width="70%" />
 </p>
 </div>
 
 
-<div id="org4949fdd" class="figure">
+<div id="orgff44075" class="figure">
 <p><img src="./imgs/inciteful-resultado2.png" alt="inciteful-resultado2.png" width="70%" />
 </p>
 </div>
 
 
-<div id="org0bc2ba2" class="figure">
+<div id="org0005fd5" class="figure">
 <p><img src="./imgs/inciteful-resultado3.png" alt="inciteful-resultado3.png" width="70%" />
 </p>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-org6190a5b" class="outline-2">
-<h2 id="org6190a5b"><span class="section-number-2">5.</span> Focadas Na Ciencia Aberta</h2>
+<div id="outline-container-orgcddd313" class="outline-2">
+<h2 id="orgcddd313"><span class="section-number-2">5.</span> Focadas Na Ciencia Aberta</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-orga4846d1" class="outline-4">
-<h4 id="orga4846d1"><span class="section-number-4">5.0.1.</span> <a href="https://openalex.org/">openalex</a></h4>
+<div id="outline-container-org5077eba" class="outline-4">
+<h4 id="org5077eba"><span class="section-number-4">5.0.1.</span> <a href="https://openalex.org/">openalex</a></h4>
 <div class="outline-text-4" id="text-5-0-1">
 <p>
 Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
 </p>
 
 
-<div id="orgcbb5152" class="figure">
+<div id="org2255847" class="figure">
 <p><img src="./imgs/openalex-resultados1.png" alt="openalex-resultados1.png" width="70%" />
 </p>
 </div>
@@ -663,8 +775,8 @@ Veja um exemplo <a href="https://openknowledgemaps.org/map/b25ad6ac04732cf3c3629
 </p>
 </div>
 </div>
-<div id="outline-container-org0e775c6" class="outline-4">
-<h4 id="org0e775c6"><span class="section-number-4">5.0.2.</span> Fluxo de Trabalho para Revisões de Literatura</h4>
+<div id="outline-container-org71c46c1" class="outline-4">
+<h4 id="org71c46c1"><span class="section-number-4">5.0.2.</span> Fluxo de Trabalho para Revisões de Literatura</h4>
 <div class="outline-text-4" id="text-5-0-2">
 <ul class="org-ul">
 <li><a href="okmaps-configuracao.html">Passo 1: Definindo Fonte e Parâmetros</a></li>
@@ -672,8 +784,8 @@ Veja um exemplo <a href="https://openknowledgemaps.org/map/b25ad6ac04732cf3c3629
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbf7ba1e" class="outline-4">
-<h4 id="orgbf7ba1e"><span class="section-number-4">5.0.3.</span> Estratégias de Compreensão do Mapa de Conhecimento</h4>
+<div id="outline-container-orga54d306" class="outline-4">
+<h4 id="orga54d306"><span class="section-number-4">5.0.3.</span> Estratégias de Compreensão do Mapa de Conhecimento</h4>
 <div class="outline-text-4" id="text-5-0-3">
 <p>
 Uma vez gerado o mapa, existem formas estratégicas de analisá-lo para extrair o máximo de valor:
@@ -686,8 +798,8 @@ Uma vez gerado o mapa, existem formas estratégicas de analisá-lo para extrair 
 </ul>
 </div>
 </div>
-<div id="outline-container-org3bd09c5" class="outline-4">
-<h4 id="org3bd09c5"><span class="section-number-4">5.0.4.</span> Como funciona o Painel Interativo do Mapa de Conhecimento</h4>
+<div id="outline-container-org70e1f01" class="outline-4">
+<h4 id="org70e1f01"><span class="section-number-4">5.0.4.</span> Como funciona o Painel Interativo do Mapa de Conhecimento</h4>
 <div class="outline-text-4" id="text-5-0-4">
 <p>
 Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda dinamicamente para exibir os documentos correspondentes.
@@ -705,8 +817,8 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 </div>
 </div>
 </div>
-<div id="outline-container-org3b83eba" class="outline-2">
-<h2 id="org3b83eba"><span class="section-number-2">6.</span> Resumo das Ferramentas de IA para pesquisa científica</h2>
+<div id="outline-container-org1d42db6" class="outline-2">
+<h2 id="org1d42db6"><span class="section-number-2">6.</span> Resumo das Ferramentas de IA para pesquisa científica</h2>
 <div class="outline-text-2" id="text-6">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -765,8 +877,8 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 </table>
 </div>
 </div>
-<div id="outline-container-org264ef25" class="outline-2">
-<h2 id="org264ef25"><span class="section-number-2">7.</span> Proximos Passos</h2>
+<div id="outline-container-orgd48c33c" class="outline-2">
+<h2 id="orgd48c33c"><span class="section-number-2">7.</span> Proximos Passos</h2>
 <div class="outline-text-2" id="text-7">
 <ul class="org-ul">
 <li>Quais ferramentas de pesquisa pesquisam em quais bases?</li>
@@ -777,8 +889,96 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: GEPIS com ajuda do Gemini 3.5 flash e pro</p>
-<p class="date">Created: 2026-06-19 sex 12:00</p>
+<p class="date">Created: 2026-06-19 sex 14:01</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const carousels = document.querySelectorAll('.CARROSSEL, .carrossel');
+  carousels.forEach(function(carousel) {
+    const images = carousel.querySelectorAll('img');
+    if (images.length === 0) return;
+    
+    const wrapper = document.createElement('div');
+    wrapper.className = 'custom-carousel-wrapper';
+    
+    const slidesContainer = document.createElement('div');
+    slidesContainer.className = 'custom-carousel-slides';
+    
+    const dotsContainer = document.createElement('div');
+    dotsContainer.className = 'custom-carousel-dots';
+    
+    images.forEach(function(img, index) {
+      const slide = document.createElement('div');
+      slide.className = 'custom-carousel-slide';
+      
+      const cloneImg = img.cloneNode(true);
+      cloneImg.style.maxWidth = img.getAttribute('width') || '100%';
+      cloneImg.removeAttribute('width');
+      
+      slide.appendChild(cloneImg);
+      slidesContainer.appendChild(slide);
+      
+      const dot = document.createElement('span');
+      dot.className = 'custom-carousel-dot' + (index === 0 ? ' active' : '');
+      dot.setAttribute('data-index', index);
+      dotsContainer.appendChild(dot);
+    });
+    
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'custom-carousel-btn prev';
+    prevBtn.innerHTML = '&#10094;';
+    
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'custom-carousel-btn next';
+    nextBtn.innerHTML = '&#10095;';
+    
+    wrapper.appendChild(slidesContainer);
+    wrapper.appendChild(prevBtn);
+    wrapper.appendChild(nextBtn);
+    wrapper.appendChild(dotsContainer);
+    
+    carousel.innerHTML = '';
+    carousel.appendChild(wrapper);
+    
+    let currentIndex = 0;
+    const totalSlides = images.length;
+    const dots = dotsContainer.querySelectorAll('.custom-carousel-dot');
+    
+    function updateCarousel() {
+      slidesContainer.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+      dots.forEach(function(dot, idx) {
+        if (idx === currentIndex) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+    
+    prevBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      updateCarousel();
+    });
+    
+    nextBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateCarousel();
+    });
+    
+    dots.forEach(function(dot) {
+      dot.addEventListener('click', function(e) {
+        e.preventDefault();
+        currentIndex = parseInt(dot.getAttribute('data-index'), 10);
+        updateCarousel();
+      });
+    });
+  });
+});
+</script>
+
 </body>
 </html>
