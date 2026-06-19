@@ -3,7 +3,7 @@
 #+EMAIL: contato@gepis.org
 #+LANGUAGE: pt-br
 #+OPTIONS: toc:t
-#+HTML_TOC_HEADER: <h2 class="title">Sumário</h2>
+
 
 
 * Introdução

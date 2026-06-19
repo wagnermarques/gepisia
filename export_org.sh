@@ -25,6 +25,8 @@ find "$TARGET_DIR" -name "*.org" | while read -r file; do
     # --kill: Fecha o Emacs após terminar
     emacs --batch \
           --eval "(require 'ox-html)" \
+          --eval "(defun my-org-html-toc-filter (text backend info) (if (org-export-derived-backend-p backend 'html) (replace-regexp-in-string \"<h2>\\\\(Table of Contents\\\\|&Iacute;ndice\\\\|Índice\\\\)</h2>\" \"<h2 class=\\\"title\\\">Sumário</h2>\" text) text))" \
+          --eval "(add-to-list 'org-export-filter-final-output-functions 'my-org-html-toc-filter)" \
           "$file" \
           -f org-html-export-to-html \
           --kill 2>/dev/null
