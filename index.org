@@ -26,6 +26,7 @@
 
 * Engenharia de Prompt (Prof. Terlys)
 
+
 * IA Para Escrita Científica
 ** agente Academic Assistent Prof (Terlys)
 
@@ -324,6 +325,7 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
    https://www.youtube.com/watch?v=E56LUo-CVMk
    
+
 ** Ferramenta Open Knowledge Maps (OK Maps)
    Open Knowledge Maps nos ajuda a escapar da armadilha da
    "lista infinita" dos mecanismos de busca tradicionais pois agrupa
@@ -374,9 +376,16 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
 
      #+BEGIN_CARROSSEL
+
+     #+ATTR_HTML: :width 70%     
      [[./imgs/googleescolarlabs-demo1.png]]
+
+     #+ATTR_HTML: :width 70%
      [[./imgs/googleescolarlabs-demo3.png]]
+
+     #+ATTR_HTML: :width 70%
      [[./imgs/googleescolarlabs-demo3.png]]
+     
      #+END_CARROSSEL
 
    + Mais informações
@@ -398,6 +407,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Mais informações
 
+     
 ** Ferramenta crossref
 
    + Resumo
@@ -408,6 +418,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
      
    + Demonstração
    + Mais informações
+
 
 ** Ferramenta altmetric
 
@@ -429,17 +440,21 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
      
      #+BEGIN_CARROUSSEL
-
+     #+ATTR_HTML: :width 70%
      [[./imgs/altimetric-demo1.png]]
 
+     #+ATTR_HTML: :width 70%
      [[./imgs/altimetric-demo2.png]]
 
-     [[./imgs/altimetric-demo3.png]]    
-
+     [[./imgs/altimetric-demo3.png]]
+     
+     #+ATTR_HTML: :width 70%
      [[./imgs/altimetric-demo4.png]]
 
+     #+ATTR_HTML: :width 70%
      [[./imgs/altimetric-demo5.png]]
 
+     #+ATTR_HTML: :width 70%     
      [[./imgs/altimetric-demo6.png]]
      
     #+END_CARROUSSEL
@@ -450,6 +465,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
      https://en.wikipedia.org/wiki/Altmetric
    
+
 ** Ferramenta lens
 
    + Resumo
@@ -459,6 +475,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Demonstração
    + Mais informações
+
 
 ** Ferramenta scimagojr
    + Resumo
@@ -471,12 +488,14 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
    + Mais informações
 
+
 ** Ferramenta doaj
    + Resumo
    + Link de Acesso
      https://doaj.org/
    + Demonstração
    + Mais informações
+
 
 ** Ferramenta dimensions
    + Resumo
@@ -486,6 +505,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
      
    + Demonstração
    + Mais informações
+
 
 ** Ferramenta clarivate
 
@@ -497,7 +517,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
 
    + Mais informações
-
+     
 ** Ferramenta notebooklm
    + Resumo
 
