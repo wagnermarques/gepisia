@@ -26,7 +26,6 @@
 
 * Engenharia de Prompt (Prof. Terlys)
 
-
 * IA Para Escrita Científica
 ** agente Academic Assistent Prof (Terlys)
 
@@ -358,7 +357,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
 
 
-** Google Escolar Labs
+** Ferramenta Google Escolar Labs
 
    + Resumo
 
@@ -387,7 +386,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
      https://www.youtube.com/watch?v=kpETz6pORck
 
 
-** opencitations
+** Ferramenta opencitations
 
    + Resumo
 
@@ -399,7 +398,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Mais informações
 
-** crossref
+** Ferramenta crossref
 
    + Resumo
      
@@ -410,7 +409,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
    + Mais informações
 
-** altmetric
+** Ferramenta altmetric
 
    + Resumo
 
@@ -451,7 +450,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
      https://en.wikipedia.org/wiki/Altmetric
    
-** lens
+** Ferramenta lens
 
    + Resumo
    + Link de Acesso
@@ -461,7 +460,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
    + Mais informações
 
-** scimagojr
+** Ferramenta scimagojr
    + Resumo
 
    + Link de Acesso
@@ -472,14 +471,14 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
    + Mais informações
 
-** doaj
+** Ferramenta doaj
    + Resumo
    + Link de Acesso
      https://doaj.org/
    + Demonstração
    + Mais informações
 
-** dimensions
+** Ferramenta dimensions
    + Resumo
    + Link de Acesso
      
@@ -488,7 +487,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
    + Demonstração
    + Mais informações
 
-** clarivate
+** Ferramenta clarivate
 
    + Resumo
    + Link de Acesso
@@ -499,7 +498,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Mais informações
 
-** notebooklm
+** Ferramenta notebooklm
    + Resumo
 
    + Link de Acesso
@@ -510,6 +509,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Mais informações
      
+
 * Resumo das Ferramentas de IA para pesquisa científica
 
 | Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
