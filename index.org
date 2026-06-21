@@ -289,11 +289,21 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
      https://incitefulmed.com/academic/help/
 
-
+     
 ** Ferramenta Openalex
 
    + Resumo
+     
+     Segundo a [[https://developers.openalex.org][documentação do openalex]] o objetivo da ferramenta é ser
+     grande fácil e aberto. Grande porque pode substituir bases
+     comerciais como Elsevier Scopus, Clarivates. Facil de usar, para
+     programadores e usuários, e prover os conjuntos de dados
+     bibliográficos totalmente livre.
 
+     De acordo com princípios de dados abertos e ciencia
+     aberta. O que é livre são os metadados das pesquisas. Ferramentas de análises de dados podem obter resultados
+     programaticamente para análises bibliométricas
+     
      
    + Link de Acesso
 
@@ -303,16 +313,18 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    + Demonstração
 
      (Tem agente? Ver c/ prof. Terlys)
-          
+
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/openalex-resultados1.png]]
+
      
    + Mais informações
-       
-   Segundo o Gemini, o objetivo é prover um catálogo totalmente aberto
 
-   #+ATTR_HTML: :width 70%
-   [[./imgs/openalex-resultados1.png]]
+   Alguns vídeos do youtube
 
-
+   https://www.youtube.com/watch?v=E56LUo-CVMk
+   
 ** Ferramenta Open Knowledge Maps (OK Maps)
    Open Knowledge Maps nos ajuda a escapar da armadilha da
    "lista infinita" dos mecanismos de busca tradicionais pois agrupa
@@ -346,6 +358,158 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
 
 
+** Google Escolar Labs
+
+   + Resumo
+
+     O Google Escolar agora tem o labs. Embora seja uma ferramenta,
+     segundo a Google, experimental, está funcionando muito bem.
+
+     Sendo assim é possível então usar linguagem natural para
+     pesquisar no google escolar.
+     
+   + Link de Acesso
+
+     https://scholar.google.com.br/scholar_labs/search?hl=pt-BR
+     
+   + Demonstração
+
+     #+BEGIN_CARROSSEL
+     [[./imgs/googleescolarlabs-demo1.png]]
+     [[./imgs/googleescolarlabs-demo3.png]]
+     [[./imgs/googleescolarlabs-demo3.png]]
+     #+END_CARROSSEL
+
+   + Mais informações
+
+     https://blog.google/products-and-platforms/products/education/google-scholar-labs/
+
+     https://www.youtube.com/watch?v=kpETz6pORck
+
+
+** opencitations
+
+   + Resumo
+
+   + Link de Acesso
+
+     https://opencitations.net/
+     
+   + Demonstração
+
+   + Mais informações
+
+** crossref
+
+   + Resumo
+     
+   + Link de Acesso
+
+     https://www.crossref.org/
+     
+   + Demonstração
+   + Mais informações
+
+** altmetric
+
+   + Resumo
+
+     Ferramenta que traz muitas informações bibliométricas. Nos
+     pareceu ser a única que preocupa-se em análise da influência ou
+     impacto dos estudos científicos.
+
+     Traz informações até sobre citações nas mídias sociais
+     
+   + Link de Acesso
+
+     https://www.altmetric.com/
+     
+   + Demonstração
+
+     [[./imgs/altimetric-demo.png]]
+
+     
+     #+BEGIN_CARROUSSEL
+
+     [[./imgs/altimetric-demo1.png]]
+
+     [[./imgs/altimetric-demo2.png]]
+
+     [[./imgs/altimetric-demo3.png]]    
+
+     [[./imgs/altimetric-demo4.png]]
+
+     [[./imgs/altimetric-demo5.png]]
+
+     [[./imgs/altimetric-demo6.png]]
+     
+    #+END_CARROUSSEL
+     
+   + Mais informações
+
+     https://www.youtube.com/watch?v=01P3RAXA1PE
+
+     https://en.wikipedia.org/wiki/Altmetric
+   
+** lens
+
+   + Resumo
+   + Link de Acesso
+
+     https://www.lens.org/
+
+   + Demonstração
+   + Mais informações
+
+** scimagojr
+   + Resumo
+
+   + Link de Acesso
+
+     https://www.scimagojr.com/
+
+     
+   + Demonstração
+   + Mais informações
+
+** doaj
+   + Resumo
+   + Link de Acesso
+     https://doaj.org/
+   + Demonstração
+   + Mais informações
+
+** dimensions
+   + Resumo
+   + Link de Acesso
+     
+     https://www.dimensions.ai/
+     
+   + Demonstração
+   + Mais informações
+
+** clarivate
+
+   + Resumo
+   + Link de Acesso
+     
+     https://clarivate.com/
+
+   + Demonstração
+
+   + Mais informações
+
+** notebooklm
+   + Resumo
+
+   + Link de Acesso
+
+     https://notebooklm.google.com/
+     
+   + Demonstração
+
+   + Mais informações
+     
 * Resumo das Ferramentas de IA para pesquisa científica
 
 | Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
@@ -368,3 +532,6 @@ Este texto é só a organização inicial das ferramentas de IA capazes
   + Existem mais ferramentas de IA para pesquisa, como classificá-las?
   + Quais ferramentas de pesquisa pesquisam em quais bases?
   + Quais as bases mais tradicionais por área do conhecimento?
+
+
+  
