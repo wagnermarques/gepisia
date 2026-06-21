@@ -446,6 +446,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
      #+ATTR_HTML: :width 70%
      [[./imgs/altimetric-demo2.png]]
 
+     #+ATTR_HTML: :width 70%
      [[./imgs/altimetric-demo3.png]]
      
      #+ATTR_HTML: :width 70%
