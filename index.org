@@ -86,37 +86,41 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    + Mais informações
      
      
-** Ferramenta Elicit
+** Ferramenta Google Escolar Labs
 
    + Resumo
-  
-     Apesar de ser uma ferramenta paga, o trial de 7 dias pode ser
-     muitíssimo útil durante a elaboração de uma pesquisa bibliográfica.
-   
+
+     O Google Escolar agora tem o labs. Embora seja uma ferramenta,
+     segundo a Google, experimental, está funcionando muito bem.
+
+     Sendo assim é possível então usar linguagem natural para
+     pesquisar no google escolar.
+     
    + Link de Acesso
 
-     https://elicit.com/
+     https://scholar.google.com.br/scholar_labs/search?hl=pt-BR
+     
+   + Demonstração
 
-   + Demostração
+     #+BEGIN_CARROSSEL
 
-     (Tem agente? Ver c/ prof. Terlys)
-          
-     Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
+     #+ATTR_HTML: :width 70%     
+     [[./imgs/googleescolarlabs-demo1.png]]
 
      #+ATTR_HTML: :width 70%
-     [[./imgs/elicit-trial-offer.png]]
+     [[./imgs/googleescolarlabs-demo3.png]]
 
-     Veja um exemplo de resultado retornado para "Which theoretical
-     points about inclusive education are most contested?" ou seja,
-     "quais os pontos teóricos sobre educação inclusiva são mais
-     contestados?"
+     #+ATTR_HTML: :width 70%
+     [[./imgs/googleescolarlabs-demo3.png]]
      
-     Veja [[https://elicit.com/agent/a50a8298-c5fb-4597-9c9f-5364885c562e][aqui]] o resultado de uma pesquisa
-     
+     #+END_CARROSSEL
+
    + Mais informações
 
-     [[https://support.elicit.com/en/][Consulte aqui para saber mais sobre como usar]] o Elicit
-     
+     https://blog.google/products-and-platforms/products/education/google-scholar-labs/
+
+     https://www.youtube.com/watch?v=kpETz6pORck
+
 
 ** Ferramenta Consensus
 
@@ -150,6 +154,38 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://www.youtube.com/@ConsensusNLP  
 
      
+** Ferramenta Elicit
+
+   + Resumo
+  
+     Apesar de ser uma ferramenta paga, o trial de 7 dias pode ser
+     muitíssimo útil durante a elaboração de uma pesquisa bibliográfica.
+   
+   + Link de Acesso
+
+     https://elicit.com/
+
+   + Demostração
+
+     (Tem agente? Ver c/ prof. Terlys)
+          
+     Ferramenta paga, dá pra usar gratuitamente por 7 dias no trial 
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/elicit-trial-offer.png]]
+
+     Veja um exemplo de resultado retornado para "Which theoretical
+     points about inclusive education are most contested?" ou seja,
+     "quais os pontos teóricos sobre educação inclusiva são mais
+     contestados?"
+     
+     Veja [[https://elicit.com/agent/a50a8298-c5fb-4597-9c9f-5364885c562e][aqui]] o resultado de uma pesquisa
+     
+   + Mais informações
+
+     [[https://support.elicit.com/en/][Consulte aqui para saber mais sobre como usar]] o Elicit
+     
+
 ** Ferramenta ScienceOs
 
    + Resumo
@@ -235,6 +271,28 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
 
 
    
+** Ferramenta scimagojr
+   + Resumo
+
+   + Link de Acesso
+
+     https://www.scimagojr.com/
+
+     
+   + Demonstração
+   + Mais informações
+
+
+** Ferramenta dimensions
+   + Resumo
+   + Link de Acesso
+     
+     https://www.dimensions.ai/
+     
+   + Demonstração
+   + Mais informações
+
+
 ** Ferramenta Inciteful 
 
    + Resumo
@@ -290,6 +348,145 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://incitefulmed.com/academic/help/
 
      
+** Ferramenta doaj
+   + Resumo
+   + Link de Acesso
+     https://doaj.org/
+   + Demonstração
+   + Mais informações
+
+
+** Ferramenta lens
+
+   + Resumo
+   + Link de Acesso
+
+     https://www.lens.org/
+
+   + Demonstração
+   + Mais informações
+
+
+** Ferramenta clarivate
+
+   + Resumo
+   + Link de Acesso
+     
+     https://clarivate.com/
+
+   + Demonstração
+
+   + Mais informações
+     
+
+** Ferramenta altmetric
+
+   + Resumo
+
+     Ferramenta que traz muitas informações bibliométricas. Nos
+     pareceu ser a única que preocupa-se em análise da influência ou
+     impacto dos estudos científicos.
+
+     Traz informações até sobre citações nas mídias sociais
+     
+   + Link de Acesso
+
+     https://www.altmetric.com/
+     
+   + Demonstração
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/altimetric-demo.png]]
+
+     
+     #+BEGIN_CARROSSEL
+     #+ATTR_HTML: :width 70%
+     [[./imgs/altimetric-demo1.png]]
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/altimetric-demo2.png]]
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/altimetric-demo3.png]]
+     
+     #+ATTR_HTML: :width 70%
+     [[./imgs/altimetric-demo4.png]]
+
+     #+ATTR_HTML: :width 70%
+     [[./imgs/altimetric-demo5.png]]
+
+     #+ATTR_HTML: :width 70%     
+     [[./imgs/altimetric-demo6.png]]
+     
+    #+END_CARROSSEL
+     
+   + Mais informações
+
+     https://www.youtube.com/watch?v=01P3RAXA1PE
+
+     https://en.wikipedia.org/wiki/Altmetric
+   
+
+** Ferramenta Open Knowledge Maps (OK Maps)
+
+   + Resumo
+
+     Open Knowledge Maps nos ajuda a escapar da armadilha da "lista
+     infinita" dos mecanismos de busca tradicionais pois artigos por
+     similaridade de texto (títulos, resumos e metadados).
+     
+ 
+   + Link de Acesso
+
+     https://openknowledgemaps.org
+     
+
+   + Demonstração
+
+     Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
+
+
+   + Mais informações
+
+     https://openknowledgemaps.org/about
+     
+     
+** Ferramenta notebooklm
+   + Resumo
+
+   + Link de Acesso
+
+     https://notebooklm.google.com/
+     
+   + Demonstração
+
+   + Mais informações
+     
+  
+** Ferramenta opencitations
+
+   + Resumo
+
+     Esta ferramenta sai um pouco do eixo das pesquisas bibliográficas
+     com apoio da IA por ser apenas uma base de dados abertos para
+     bibliografias e bibliometrias.
+
+     Utiliza websemanticas e dados abertos com princípios FAIR (data
+     should be findable, accessible, interoperable and reusable)
+     
+   
+   + Link de Acesso
+
+     https://opencitations.net/
+     
+   + Demonstração
+
+     
+   + Mais informações
+
+     https://www.openaire.eu/opencitations-guide
+     
+
 ** Ferramenta Openalex
 
    + Resumo
@@ -326,90 +523,6 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    https://www.youtube.com/watch?v=E56LUo-CVMk
    
 
-** Ferramenta Open Knowledge Maps (OK Maps)
-
-   + Resumo
-
-     Open Knowledge Maps nos ajuda a escapar da armadilha da "lista
-     infinita" dos mecanismos de busca tradicionais pois artigos por
-     similaridade de texto (títulos, resumos e metadados).
-     
- 
-   + Link de Acesso
-
-     https://openknowledgemaps.org
-     
-
-   + Demonstração
-
-     Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
-
-
-   + Mais informações
-
-     https://openknowledgemaps.org/about
-     
-     
-** Ferramenta Google Escolar Labs
-
-   + Resumo
-
-     O Google Escolar agora tem o labs. Embora seja uma ferramenta,
-     segundo a Google, experimental, está funcionando muito bem.
-
-     Sendo assim é possível então usar linguagem natural para
-     pesquisar no google escolar.
-     
-   + Link de Acesso
-
-     https://scholar.google.com.br/scholar_labs/search?hl=pt-BR
-     
-   + Demonstração
-
-     #+BEGIN_CARROSSEL
-
-     #+ATTR_HTML: :width 70%     
-     [[./imgs/googleescolarlabs-demo1.png]]
-
-     #+ATTR_HTML: :width 70%
-     [[./imgs/googleescolarlabs-demo3.png]]
-
-     #+ATTR_HTML: :width 70%
-     [[./imgs/googleescolarlabs-demo3.png]]
-     
-     #+END_CARROSSEL
-
-   + Mais informações
-
-     https://blog.google/products-and-platforms/products/education/google-scholar-labs/
-
-     https://www.youtube.com/watch?v=kpETz6pORck
-
-
-** Ferramenta opencitations
-
-   + Resumo
-
-     Esta ferramenta sai um pouco do eixo das pesquisas bibliográficas
-     com apoio da IA por ser apenas uma base de dados abertos para
-     bibliografias e bibliometrias.
-
-     Utiliza websemanticas e dados abertos com princípios FAIR (data
-     should be findable, accessible, interoperable and reusable)
-     
-   
-   + Link de Acesso
-
-     https://opencitations.net/
-     
-   + Demonstração
-
-     
-   + Mais informações
-
-     https://www.openaire.eu/opencitations-guide
-     
-
 ** Ferramenta crossref
 
    + Resumo
@@ -433,128 +546,31 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
      https://www.youtube.com/watch?v=exXBcDYGPaA&t=254s
 
      
-** Ferramenta altmetric
+* Resumo das Ferramentas de IA para pesquisa científica (Gerado com Gemini via Antigravity)
 
-   + Resumo
+| Ferramenta | Uso de IA | Melhor Para / Vantagem Principal |
+|------------+-----------+----------------------------------|
+| Scopus | Sim, possui o "AI Query Builder" que traduz busca em linguagem natural em queries de busca complexas. | Busca de alta qualidade na tradicional base da Elsevier. |
+| sciencedirect-LeapSpace | Sim, chat de IA integrado para responder a perguntas usando artigos científicos e gerando citações. | Obter respostas fundamentadas com referências diretas da Elsevier. |
+| Google Escolar Labs | Sim, busca em linguagem natural e resumos experimentais de artigos baseados em IA. | Pesquisa avançada usando linguagem natural na base do Google Acadêmico. |
+| Consensus | Sim, analisa e sintetiza artigos com LLMs, oferecendo o "Consensus Meter" para indicar consenso científico. | Verificação de hipóteses e síntese de evidências científicas com métrica visual. |
+| Elicit | Sim, usa IA para extrair dados estruturados (amostras, dosagens, etc.), resumir artigos e criar tabelas. | Extração automatizada de dados e comparação em lote de múltiplos artigos. |
+| ScienceOS | Sim, chat de IA integrado para interagir com PDFs (tabelas, figuras, texto) e gerar diagramas conceituais. | Chat interativo seguro com até 4.000 PDFs carregados e visualizações. |
+| SemanticScholar | Sim, usa IA/NLP para criar resumos curtos (TL;DR), recomendar artigos e identificar citações mais influentes. | Descoberta inteligente de literatura e análise de citações de alto impacto. |
+| Inciteful | Não diretamente. Baseia-se em análise de rede de citações (grafo) de quem citou quem. | Mapeamento visual de redes de citações e descoberta de artigos seminais. |
+| Open Knowledge Maps | Não utiliza IA generativa. Usa algoritmos clássicos de similaridade de texto para agrupar artigos. | Visualização estruturada de tópicos e agrupamento de literatura em mapas temáticos. |
+| altmetric | Não. Coleta métricas de atenção online (redes sociais, notícias, menções) via rastreadores. | Avaliar o impacto e a repercussão pública/social das publicações científicas. |
+| lens | Não diretamente. Ferramenta tradicional de busca bibliográfica e de patentes integrada. | Busca robusta e unificada de patentes e artigos científicos com dados abertos. |
+| scimagojr | Não. Portal de classificação de periódicos e indicadores de países com base no Scopus. | Consulta rápida de rankings (SJR) e prestígio de periódicos acadêmicos. |
+| doaj | Não. Diretório online curado que indexa e fornece acesso a periódicos de acesso aberto. | Encontrar periódicos e artigos de acesso aberto revisados por pares e confiáveis. |
+| dimensions | Sim, usa NLP para classificação automática de áreas do conhecimento e extração de conceitos. | Busca integrada ligando publicações, patentes, ensaios clínicos e financiamentos. |
+| clarivate | Sim, integra assistentes de IA (Web of Science Research Assistant) para sintetizar buscas e gerar resumos. | Acesso estruturado à base de dados tradicional e de alto prestígio Web of Science. |
+| notebooklm | Sim, alimentado pelo Gemini da Google para atuar como assistente personalizado sobre documentos enviados. | Geração de resumos, roteiros, podcasts e interações diretas com os próprios arquivos do pesquisador. |
+| opencitations | Não. Infraestrutura de dados abertos para bibliografia e bibliometria com princípios FAIR. | Consulta e extração de dados bibliométricos abertos e estruturados sem barreiras comerciais. |
+| Openalex | Sim, de forma algorítmica/ML para categorizar tópicos, instituições e autores. | Catálogo global aberto alternativo a bases comerciais, ideal para análises bibliométricas. |
+| crossref | Não. Registro de metadados e gerador de identificadores (DOIs) mantido por editores. | Localização e resolução de metadados oficiais e referências cruzadas de publicações. |
+| PapersFlow | Sim, usa multi-agentes de IA para descoberta de artigos e escrita assistida por IA. | Ciclo de vida completo da pesquisa com formatação de citações integrada. |
 
-     Ferramenta que traz muitas informações bibliométricas. Nos
-     pareceu ser a única que preocupa-se em análise da influência ou
-     impacto dos estudos científicos.
-
-     Traz informações até sobre citações nas mídias sociais
-     
-   + Link de Acesso
-
-     https://www.altmetric.com/
-     
-   + Demonstração
-
-     [[./imgs/altimetric-demo.png]]
-
-     
-     #+BEGIN_CARROUSSEL
-     #+ATTR_HTML: :width 70%
-     [[./imgs/altimetric-demo1.png]]
-
-     #+ATTR_HTML: :width 70%
-     [[./imgs/altimetric-demo2.png]]
-
-     #+ATTR_HTML: :width 70%
-     [[./imgs/altimetric-demo3.png]]
-     
-     #+ATTR_HTML: :width 70%
-     [[./imgs/altimetric-demo4.png]]
-
-     #+ATTR_HTML: :width 70%
-     [[./imgs/altimetric-demo5.png]]
-
-     #+ATTR_HTML: :width 70%     
-     [[./imgs/altimetric-demo6.png]]
-     
-    #+END_CARROUSSEL
-     
-   + Mais informações
-
-     https://www.youtube.com/watch?v=01P3RAXA1PE
-
-     https://en.wikipedia.org/wiki/Altmetric
-   
-
-** Ferramenta lens
-
-   + Resumo
-   + Link de Acesso
-
-     https://www.lens.org/
-
-   + Demonstração
-   + Mais informações
-
-
-** Ferramenta scimagojr
-   + Resumo
-
-   + Link de Acesso
-
-     https://www.scimagojr.com/
-
-     
-   + Demonstração
-   + Mais informações
-
-
-** Ferramenta doaj
-   + Resumo
-   + Link de Acesso
-     https://doaj.org/
-   + Demonstração
-   + Mais informações
-
-
-** Ferramenta dimensions
-   + Resumo
-   + Link de Acesso
-     
-     https://www.dimensions.ai/
-     
-   + Demonstração
-   + Mais informações
-
-
-** Ferramenta clarivate
-
-   + Resumo
-   + Link de Acesso
-     
-     https://clarivate.com/
-
-   + Demonstração
-
-   + Mais informações
-     
-
-** Ferramenta notebooklm
-   + Resumo
-
-   + Link de Acesso
-
-     https://notebooklm.google.com/
-     
-   + Demonstração
-
-   + Mais informações
-     
-
-* Resumo das Ferramentas de IA para pesquisa científica
-
-| Ferramenta | Melhor Para                        | Vantagem Principal                                                                                                                                   |
-|------------+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Scopus     |                                    | Elsevier é bastante tradicional                                                                                                                      |
-| Elicit     | Extração de dados estruturados     | Permite carregar milhares de PDFs ou consultar sua base para criar tabelas comparativas automatizadas (ex: extraindo amostras ou doses).             |
-| Consensus  | Verificação baseada em evidências  | Motor de busca em 250M+ artigos. Inclui o "Consensus Meter" que analisa se a literatura tende ao "sim", "não" ou "misto" para uma afirmação.         |
-| PapersFlow | Ciclo de vida completo da pesquisa | Escolha popular para combinar descoberta de artigos via multi-agentes com escrita assistida por IA e formatação de citações integrada.               |
-| scienceOS  | Chat interativo com múltiplos PDFs | Permite carregar até 4.000 PDFs em um workspace seguro para interagir com figuras, tabelas e textos, baseando-se exclusivamente nos seus documentos. |
-|            |                                    |                                                                                                                                                      |
 
 
 * Proximos Passos
