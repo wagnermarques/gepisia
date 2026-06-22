@@ -327,38 +327,29 @@ A [[https://www.scopus.com][scopus]] é a ferramenta de busca da Elsevier
    
 
 ** Ferramenta Open Knowledge Maps (OK Maps)
-   Open Knowledge Maps nos ajuda a escapar da armadilha da
-   "lista infinita" dos mecanismos de busca tradicionais pois agrupa
-   artigos por similaridade de texto (títulos, resumos e metadados).
-   Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
 
-   https://openknowledgemaps.org
+   + Resumo
 
-*** Fluxo de Trabalho para Revisões de Literatura
-- [[file:okmaps-configuracao.org][Passo 1: Definindo Fonte e Parâmetros]]
-- [[file:okmaps-layout.org][Passo 2: Decodificando o Macro Layout]]
+     Open Knowledge Maps nos ajuda a escapar da armadilha da "lista
+     infinita" dos mecanismos de busca tradicionais pois artigos por
+     similaridade de texto (títulos, resumos e metadados).
+     
+ 
+   + Link de Acesso
 
-*** Estratégias de Compreensão do Mapa de Conhecimento
+     https://openknowledgemaps.org
+     
 
-Uma vez gerado o mapa, existem formas estratégicas de analisá-lo para extrair o máximo de valor:
+   + Demonstração
 
-- [[file:okmaps-estrategias.org#pontes-interdisciplinares][Identificar Pontes Interdisciplinares]]
-- [[file:okmaps-estrategias.org#isolar-outliers][Isolar os "Outliers"]]
-- [[file:okmaps-estrategias.org#acesso-aberto][Filtrar por Representação de Acesso Aberto (Open Access)]]
-
-*** Como funciona o Painel Interativo do Mapa de Conhecimento
-
-Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda dinamicamente para exibir os documentos correspondentes.
-
-[[file:okmaps-painel.org][Veja como otimizar sua triagem dentro do painel interativo.]]
-
-#+BEGIN_QUOTE
-*Dica Pro:* Como o OK Maps renderiza seu mapa visual dinamicamente com base em um identificador exclusivo vinculado à sua string de busca, você pode copiar a URL direto da barra de endereços do seu navegador para salvá-la neste caderno Org-mode, compartilhá-la com uma equipe de pesquisa ou incorporá-la em um espaço de documentação de projeto.
-#+END_QUOTE
+     Veja um exemplo [[https://openknowledgemaps.org/map/b25ad6ac04732cf3c36299887be78c89][aqui]]
 
 
+   + Mais informações
 
-
+     https://openknowledgemaps.org/about
+     
+     
 ** Ferramenta Google Escolar Labs
 
    + Resumo
@@ -399,27 +390,49 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Resumo
 
+     Esta ferramenta sai um pouco do eixo das pesquisas bibliográficas
+     com apoio da IA por ser apenas uma base de dados abertos para
+     bibliografias e bibliometrias.
+
+     Utiliza websemanticas e dados abertos com princípios FAIR (data
+     should be findable, accessible, interoperable and reusable)
+     
+   
    + Link de Acesso
 
      https://opencitations.net/
      
    + Demonstração
 
+     
    + Mais informações
 
+     https://www.openaire.eu/opencitations-guide
      
+
 ** Ferramenta crossref
 
    + Resumo
+
+     É basicamente um banco de dados aberto sobre referencias
+     bibliográficas com contribuições de 25 mil membros, 167 países e
+     2.1 bilhoes de acessos web a partir de softwares em busca de seus dados
      
    + Link de Acesso
 
      https://www.crossref.org/
      
    + Demonstração
+
+     
+     
    + Mais informações
 
+     https://www.crossref.org/documentation/
 
+     https://www.youtube.com/watch?v=exXBcDYGPaA&t=254s
+
+     
 ** Ferramenta altmetric
 
    + Resumo
@@ -519,6 +532,7 @@ Ao clicar em uma bolha, o mapa aumenta o zoom e a barra lateral direita muda din
 
    + Mais informações
      
+
 ** Ferramenta notebooklm
    + Resumo
 
@@ -553,6 +567,20 @@ Este texto é só a organização inicial das ferramentas de IA capazes
   + Existem mais ferramentas de IA para pesquisa, como classificá-las?
   + Quais ferramentas de pesquisa pesquisam em quais bases?
   + Quais as bases mais tradicionais por área do conhecimento?
+  + Em uma revisão bibliográfica sistemática, quais ferramentas de
+    pesquisa bibliográfica utilizar? Devo utilizar todas?
+  
+Recomendações básicas:
+  + Vieses das IAs
 
+    O pesquisador deve conferir tudo que a IA lhe entrega de
+    informações, caso for utilizá-las.
+
+    Não se sabe exatamente qual possível viês uma IA pode infectar os
+    resultados. Sendo assim é bom contar com seu orientador tanto para
+    avaliar um possível viés como também para adequado posicionamento
+    epistemógico do estudo.
+
+    
 
   
