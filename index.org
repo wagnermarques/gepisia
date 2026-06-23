@@ -4,32 +4,6 @@
 #+LANGUAGE: pt-br
 #+OPTIONS: toc:t
 
-* Introdução (Prof. Terlys)
-
-   - Contextualização e Conceitos com base na palestra do Prof. Denis
-
-   - Posicionamento Teórico e necessidade de orientação
-
-     A IA retorna conteúdos sem nenhum critério, ela não tem um
-     posicionamento teórico e ela erra também.
-
-     Por esse motivo é fundamental consutar o orientador para questões
-     epistemológicas durante a construção da revisão bibliográfica.
-     
-   - IA Não faz Rev Bibliográfica (É só uma ferramenta)
-
-     O Planejamento da Revisão Bibliográfica deve ser feito antes do uso
-     da IA e é de responsabilidade do pesquisador.
-
-   - Declaração de Uso da IA (Links)
-     
-
-* Engenharia de Prompt (Prof. Terlys)
-
-
-* IA Para Escrita Científica
-** agente Academic Assistent Prof (Terlys)
-
 
 * IA para Pesquisas Bibliograficas
 
